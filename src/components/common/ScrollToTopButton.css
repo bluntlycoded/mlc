@@ -1,0 +1,32 @@
+/* ScrollToTopButton.css */
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Old background color */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 50%; /* Circular border */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, border-color 0.3s; /* Add smooth transition */
+  }
+  
+  .scroll-to-top-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3; /* Border color on hover */
+  }
+  
+  .arrow-icon {
+    color: #fff; /* Arrow color */
+    font-size: 24px; /* Increase the font size for a modern look */
+  }
+  
+  .arrow-icon:hover {
+    color: #f0f0f0; /* Arrow color on hover */
+  }
+  

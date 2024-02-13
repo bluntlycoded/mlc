@@ -1,0 +1,86 @@
+nav {
+  background-color: #00040F;
+  color: white;
+  font-family: "Poppins",sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Navbar.css */
+
+/* ... Existing styles */
+
+/* Navbar.css */
+
+/* Make the navbar sticky */
+.navb {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transition effects */
+}
+
+/* Styling when scrolling */
+.nav.scrolling {
+  background-color: #1b5998; /* Change background color when scrolling */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow when scrolling */
+}
+
+
+/* ... Rest of the styles */
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-links li,
+.mobile-menu li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Media query for mobile menu display */
+@media (max-width: 768px) {
+  .desktop-links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: inline-block;
+  }
+
+  .mobile-menu ul {
+    display: none;
+    position: absolute;
+    top: 60px; /* Adjust the top position based on your design */
+    left: 0;
+    background-color: #00040F;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .mobile-menu ul li {
+    margin-bottom: 1rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}

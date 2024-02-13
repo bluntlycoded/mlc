@@ -1,0 +1,286 @@
+/* Home.css */
+
+.home-container {
+    
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-color: #00040F; /* Matched to the navbar color */
+    color: white;
+    padding: 2rem;
+    border-radius: 0px;
+    margin: 0;
+  }
+  body{
+    background-color: #00040F;
+    color: #FFFFFF;
+    
+  }
+  
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    font-family:'Barlow Condensed', sans-serif;;
+  }
+  
+  .about-section {
+    margin-top: 2rem;
+    align-items: center;
+
+  }
+  .abp{
+    text-align: justify;
+    padding: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+  }
+  /* Specializations.css */
+
+.specializations-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #00040F;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  .specialization-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .specialization {
+    width: 30%;
+    background-color: #00040F;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+  }
+  .h2c{
+    text-align: center;
+  }
+  
+  .specialization h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .specialization p {
+    margin: 0;
+  }
+  
+  /* Add animations as needed */
+  
+  .abpc{
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .learn-more-button {
+    background-color: #2e86c1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .ods{
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  .learn-more-button:hover {
+    background-color: #1b5998;
+    color: white;
+    transition: background-color 0.3s all;
+    animation: fill 0.2s forwards;
+  }
+  
+  .featured-achievements,
+  .upcoming-events {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  h1{
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  /* Home.css */
+
+/* ... Existing styles */
+
+.slider-section {
+    margin-top: 2rem;
+    height: 600px; /* Set the height of the slider */
+  }
+  
+  .slick-slider {
+    width: 100%; /* Set the width of the slider */
+    height: 100%; /* Set the height of the slider */
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: 100%; /* Ensure the image covers the entire slide */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire slide */
+    border-radius: 10px;
+  }
+  
+  /* ... Rest of the styles */
+  
+  .achievement-card,
+  .event-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .achievement-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  .achievement-card h3,
+  .event-card h3 {
+    color: #3498db;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  .achievement-card p,
+  .event-card p {
+    margin-bottom: 1rem;
+  }
+ /* Home.css */
+
+/* Home.css */
+
+/* ... Existing styles */
+
+.our-stats-section {
+    margin-top: 2rem;
+    background-color: #00040F;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .stat-card {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 0.5rem; /* Added margin between stat cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #0000001a;
+    background-color: transparent;
+  }
+  
+  .stat-card h3 {
+    color: white;
+  }
+  
+  
+  .stats-container::after {
+    content: '';
+    flex: 0; /* Adjusted to make the line non-flexible */
+    height: 80%; /* Adjusted height for better visibility */
+    width: 1px;
+    background-color: #ddd;
+    margin: auto 1rem; /* Adjusted margin for better placement */
+  }
+  /* Home.css */
+
+/* ... Existing styles */
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .stat-card {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .stat-card h3 {
+    color: white;
+    font-size: 1.5rem; /* Increase font size for the counter */
+  }
+  
+  .counter {
+    font-size: 2rem; /* Increase font size for the counter number */
+    margin-top: 1rem; /* Add margin for better spacing */
+    animation: countUp 2s ease-in-out; /* Define the count-up animation */
+  }
+  
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .stats-container::after {
+    content: '';
+    flex: 0;
+    height: 80%;
+    width: 1px;
+    background-color: #ddd;
+    margin: auto 1rem;
+  }
+  
+  /* Add gap at the bottom of the counter */
+  .our-stats-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* ... Rest of the styles */
+  
+  /* Add gap at the bottom of the counter */
+  .our-stats-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* ... Rest of the styles */
+  

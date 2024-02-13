@@ -1,0 +1,32 @@
+/* Slider.css */
+
+/* Basic styling for the slider */
+.slider {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Style for each slide */
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Display the active slide */
+  .slide.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  /* Style the image within each slide */
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  

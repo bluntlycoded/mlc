@@ -1,0 +1,41 @@
+.about-us-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #00040F;
+    color: white;
+    padding: 1rem;
+    border-radius: 0px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  section {
+    margin-top: 2rem;
+  }
+  
+  /* Add more styling as needed */
+  
+  /* Example of adding a fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to specific elements */
+  .overview, .history {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
