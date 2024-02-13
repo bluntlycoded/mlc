@@ -17,7 +17,7 @@ const ContactUs = () => {
       <div style={{ flex: 1, marginRight: '20px' }}>
       <section className="contact-form">
         <h2>Send us a Message</h2>
-        <form>
+        <form action='https://formsubmit.co/rahuln9261@gmail.com'method='POST'>
           <label htmlFor="name">Your Name:</label>
           <input type="text" id="name" name="name" required />
 

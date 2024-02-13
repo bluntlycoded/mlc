@@ -1,12 +1,15 @@
-nav {
+.navbar {
   background-color: #00040F;
   color: white;
-  font-family: "Poppins",sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar.scrolling {
+  background-color: #3498db; /* Change this to your desired color */
 }
 /* Navbar.css */
 

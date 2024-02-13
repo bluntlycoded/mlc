@@ -31,23 +31,7 @@ const AboutUs = () => {
       </section>
 
       </div>
-    </div>
-    <h1>The Flag Bearing Team</h1>
-    <div style={{ display: 'flex' }}>
-      <div style={{ flex: 1, marginRight: '20px' }}>
-        {/* Content for the first column */}
-        <ProfileCard/>
-      </div>
-      <div style={{ flex: 1, marginRight: '20px' }}>
-        {/* Content for the second column */}
-     <ProfileCard/>
-      </div>
-      <div style={{ flex: 1 }}>
-        {/* Content for the third column */}
-        <ProfileCard/>
-      </div>
-    </div>
-      
+    </div>      
       {/* Add more sections for team, values, achievements, etc. */}
       <Footer/>
     </div>

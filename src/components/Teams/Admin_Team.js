@@ -7,15 +7,22 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 const teamMembers = [
   {
-    name: 'Lead Name',
+    name: 'Irfan Sadiq Rahat',
     position: 'Team Lead',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
   {
-    name: 'Co-Lead Name',
-    position: 'Co-Team Lead',
+    name: 'Hritwik Ghosh',
+    position: 'Vice President',
+    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
+    instagram: 'https://www.instagram.com/colead-instagram/',
+  },
+  {
+    name: 'Sanya Sooraj Sadanand',
+    position: 'Vice President',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
@@ -27,7 +34,6 @@ const teamMembers = [
     imageUrl: 'member1.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
-    github: 'https://github.com/member1-github/',
     registration: 'Registration 1',
   },
   {
@@ -36,7 +42,6 @@ const teamMembers = [
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
-    github: 'https://github.com/member2-github/',
     registration: 'Registration 2',
   },
 ];
@@ -45,10 +50,10 @@ const AdminT = () => {
   return (
     <div>
         <Navbar/>
-        <h1>Admin Team</h1>
+        <h1 className='h1s'>Admin Team</h1>
       <div className="row">
         {/* Lead */}
-        <div className="col-md-6">
+        <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
             <div className="card-body">
@@ -62,11 +67,13 @@ const AdminT = () => {
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
             </div>
           </div>
         </div>
         {/* Co-Lead */}
-        <div className="col-md-6">
+        <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[1].name} />
             <div className="card-body">
@@ -80,34 +87,58 @@ const AdminT = () => {
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[2].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[2].name}</h5>
+              <p className="card-text">{teamMembers[2].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[2].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
             </div>
           </div>
         </div>
       </div>
       {/* Other Team Members */}
       {/* Team Information Table */}
+      <div className='tbl'>
+      <h1 className='h1s'>Team Information</h1>
       <table className="table">
         <thead>
           <tr>
             <th>Name</th>
             <th>Registration</th>
-            <th>LinkedIn</th>
+            <th>Positions</th>
             <th>Instagram</th>
-            <th>Github</th>
+            <th>LinkedIn</th>
           </tr>
         </thead>
         <tbody>
-          {teamMembers.slice(2).map((member, index) => (
+          {teamMembers.slice(3).map((member, index) => (
             <tr key={index}>
               <td>{member.name}</td>
               <td>{member.registration}</td>
-              <td>{member.linkedin}</td>
+              <td>{member.position}</td>
               <td>{member.instagram}</td>
-              <td>{member.github}</td>
+              <td>{member.linkedin}</td>
             </tr>
           ))}
         </tbody>
       </table>
+      </div>
       <Footer/>
     </div>
   );
