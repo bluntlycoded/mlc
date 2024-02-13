@@ -2,7 +2,6 @@ import React from 'react';
 import './AboutUs.css'; // Create a corresponding CSS file for styling
 import Navbar from './common/Navbar';
 import Footer from './common/Footer';
-import ProfileCard from './common/ProfileCard';
 
 const AboutUs = () => {
   return (
