@@ -20,19 +20,31 @@ import arcade from './Images/Arcade Zone.png'
 const Home = () => {
   let navigate = useNavigate(); 
   const AboutUs = () =>{ 
-    let path = `about`; 
+    let path = `/about`; 
     navigate(path);
   }
   const Events = () =>{ 
-    let path = `events`; 
+    let path = `/events`; 
     navigate(path);
   }
   const Dept = () =>{ 
-    let path = `departments`; 
+    let path = `/departments`; 
     navigate(path);
   }
   const Projects = () =>{ 
-    let path = `projects`; 
+    let path = `/projects`; 
+    navigate(path);
+  }
+  const Pr1 = () =>{ 
+    let path = `/project1`; 
+    navigate(path);
+  }
+  const Pr2 = () =>{ 
+    let path = `/project2`; 
+    navigate(path);
+  }
+  const Pr3 = () =>{ 
+    let path = `/project3`; 
     navigate(path);
   }
   const [scrolling, setScrolling] = useState(false);
@@ -82,22 +94,25 @@ const Home = () => {
       id: 1,
       title: 'Get Out',
       date: 'February 22, 2024',
-      location: 'AB-001',
-      poster: getout
+      location: 'AB1-4th Floor',
+      poster: getout,
+      info_page: Pr1,
     },
     {
       id: 2,
       title: 'Arcade Zone-VTAPP',
       date: 'Feb 22, 2024',
-      location: 'VIT-AP Campus',
-      poster: arcade
+      location: 'AB1-409',
+      poster: arcade,
+      info_page: Pr2,
     },
     {
       id: 3,
       title: 'Hackathon',
       date: 'Feb 22, 2024',
       location: 'CB-IIEC',
-      poster: hck
+      poster: hck,
+      info_page: Pr3,
     },
   ];
 
@@ -213,7 +228,7 @@ const Home = () => {
             <h3>{event.title}</h3>
             
             <p> {event.description}</p>
-            <button className="learn-more-button abpc">Know More</button>
+            <button className="learn-more-button abpc"x>Know More</button>
           </div>
         ))}
       </section>
