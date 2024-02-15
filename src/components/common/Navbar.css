@@ -1,35 +1,18 @@
-.navbar {
-  background-color: #00040F;
-  color: white;
-  font-family: "Kumbh Sans", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-}
-.navbar.scrolling {
-  background-color: #3498db; /* Change this to your desired color */
-}
-/* Navbar.css */
-
-/* ... Existing styles */
 
 /* Navbar.css */
 
-/* Make the navbar sticky */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  background-color: transparent;
   transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transition effects */
 }
 
 /* Styling when scrolling */
 .navbar.scrolling {
-  background-color: #1b5998; /* Change background color when scrolling */
+  background-color: #1b1c1d; /* Change background color when scrolling */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow when scrolling */
 }
 
@@ -40,11 +23,12 @@
 nav a {
   text-decoration: none;
   color: white;
+
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding: 0.5rem;
   margin: 0;
 }
 

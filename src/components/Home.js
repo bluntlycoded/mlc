@@ -4,7 +4,7 @@ import { React, useEffect, useState } from 'react';
 import './Home.css'; // Create a corresponding CSS file for styling
 import Slider from './common/Slider';
 import { Link,useNavigate } from 'react-router-dom';
-import './Navbar.css';
+import './common/Navbar.css';
 
 import image1 from '../components/Images/5.jpg';
 import image2 from '../components/Images/2.jpg';
@@ -13,6 +13,8 @@ import logo from '../components/Images/removebg.png'
 import hck from '../components/Images/cds.jpeg'
 import Footer from './common/Footer';
 import ScrollToTopButton from './common/ScrollToTopButton';
+import getout from '../components/Images/Getout.png'
+import arcade from './Images/Arcade Zone.png'
 
 
 const Home = () => {
@@ -55,18 +57,21 @@ const Home = () => {
   const projects = [
     {
       id: 'Project 1',
-      title: 'Project 1',
-      description: 'Description for Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Hair Style Recommendation',
+      description: 'Dive into the world of Hair Style Recommendation – where trends meet individuality! Our project is your personal stylist, suggesting the perfect hairdos based on your unique features and preferences. With a mix of cutting-edge technology and style expertise, discover a world of hair inspiration that complements your personality flawlessly. Elevate your look!',
+      made_by:'A Rajesh Chowdary',
     },
     {
       id: 'Project 2',
-      title: 'Project 2',
-      description: 'Description for Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Hand Cricket Game',
+      description: 'Step up to the crease and experience the thrill of Hand Cricket! Our project brings the classic game to life, allowing users to bat and bowl with just their hands. With lively animations, strategic gameplay, and endless fun, Hand Cricket Game is the ultimate blend of nostalgia and excitement. Play ball!',
+      made_by:'Khushi Rawat'
     },
     {
       id: 'Project 3',
-      title: 'Project 3',
-      description: 'Description for Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Study Buddy',
+      description: 'Introducing Study Buddy, your genius study companion! Transforming PDFs into a dynamic learning experience, our project analyzes study materials and generates personalized questions. Seamlessly adapting to your curriculum, Study Buddy turns every page into an interactive quiz, making learning engaging, efficient, and tailored just for you. Elevate your study sessions with a smarter approach!',
+      made_by:'Lakshmi,Keerthi Chowdhary,Kushal'
     },
     // Add more projects as needed
   ];
@@ -78,14 +83,14 @@ const Home = () => {
       title: 'Get Out',
       date: 'February 22, 2024',
       location: 'AB-001',
-      poster: '../components/Images/1.jpg'
+      poster: getout
     },
     {
       id: 2,
       title: 'Arcade Zone-VTAPP',
       date: 'Feb 22, 2024',
       location: 'VIT-AP Campus',
-      poster: 'img'
+      poster: arcade
     },
     {
       id: 3,
@@ -99,7 +104,6 @@ const Home = () => {
   return (
     <div className="home-container">
       <nav style={{
-        backgroundColor: "transparent", // Updated background color
         color: "white",
         fontFamily: "Poppins",
         display: "flex",
@@ -107,6 +111,7 @@ const Home = () => {
         alignItems: "center",
         padding: "1rem 2rem",
         fontStyle: "bold",
+        marginTop: "2",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)", // Added box shadow for a modern touch
       }} className={`navbar ${scrolling ? 'scrolling' : ''}`}>
         <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "1.5rem", fontWeight: "bold" }}>The Machine Learning Club</Link>
@@ -186,7 +191,7 @@ const Home = () => {
         <h2>Upcoming Events</h2>
         {upcomingEventsData.map(event => (
           <div key={event.id} className="event-card">
-            <img src={event.poster} width={250} height={250}/>
+            <img src={event.poster} width={250} height={250} alt='event_img'/>
             <h3>{event.title}</h3>
             <p><strong>Date:</strong> {event.date}</p>
             <p><strong>Location:</strong> {event.location}</p>
@@ -204,8 +209,9 @@ const Home = () => {
         
         {projects.map(event => (
           <div key={event.id} className="event-card">
-            <h3>{event.title}</h3>
             <p>{event.id}</p>
+            <h3>{event.title}</h3>
+            
             <p> {event.description}</p>
             <button className="learn-more-button abpc">Know More</button>
           </div>

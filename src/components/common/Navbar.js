@@ -25,8 +25,7 @@ const Navbar = () => {
     <br/>
         <br/>
         <br/>
-    <nav style={{
-      backgroundColor: "transparent", // Updated background color
+    <nav style={{// Updated background color
       color: "white",
       fontFamily: "Poppins",
       display: "flex",
