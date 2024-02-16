@@ -38,4 +38,7 @@
   .overview, .history {
     animation: fadeIn 1s ease-in-out;
   }
+  .dns{
+    align-items: center;
+  }
   

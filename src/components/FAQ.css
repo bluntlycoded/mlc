@@ -1,0 +1,59 @@
+/* src/FAQ.css */
+
+/* Container styling */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white; /* Set font color to white */
+  }
+  
+  /* FAQ section title styling */
+  .faq-title {
+    color: #fff; /* Set font color to white */
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* FAQ list styling */
+  .faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  /* Individual FAQ item styling */
+  .faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    background-color: #000; /* Set background color to a dark color */
+  }
+  
+  /* Question styling */
+  .faq-question {
+    display: block;
+    font-size: 18px;
+    color: #fff; /* Set font color to white */
+    margin-bottom: 10px;
+  }
+  
+  /* Answer styling with animation */
+  .faq-answer {
+    font-size: 16px;
+    color: #fff; /* Set font color to white */
+    margin: 0;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .faq-item.active .faq-answer {
+    max-height: 500px; /* Adjust the max-height based on your content */
+    opacity: 1;
+  }
+  
