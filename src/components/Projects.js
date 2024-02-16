@@ -121,9 +121,8 @@ const Projects = () => {
       <section className="project-cards">
         {projects.map((project) => (
           <div key={project.id} className="project-card">
-            <p>{project.id}</p>
-            <p><strong><p>Made By:</p></strong>{project.made_by}</p>
             <h2>{project.title}</h2>
+            <p className='bnf'><strong><p>Made By:</p></strong>{project.made_by}</p>
             <p>{project.description}</p>
             <div className="buttons">
               <button className="info-button" onClick={Pr1}>More Info</button>
