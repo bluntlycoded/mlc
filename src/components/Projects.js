@@ -39,6 +39,7 @@ const Projects = () => {
         title: 'Project 2',
         description: 'Description for Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         more_info: {Pr1},
+        made_by:'',
       },
       {
         id: 'Project 2',
@@ -67,6 +68,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <p>{project.id}</p>
+            <p><strong><p>Made By:</p></strong>{project.made_by}</p>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <div className="buttons">
