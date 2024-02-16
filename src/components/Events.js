@@ -16,6 +16,7 @@ const Events = () => {
       location: 'AB1-4th Floor',
       description: 'Join us for an exciting tech conference featuring industry experts and cutting-edge technologies.',
       poster: esc, // Add the actual image path
+      reg:'https://vtop1.vitap.ac.in/VTAPP/'
     },
     {
       id: 2,
@@ -116,7 +117,7 @@ const Events = () => {
             </div>
             <div className="event-buttons">
               <button className="event-button" onClick={() => handleInfoClick(event.id)}>More Info</button>
-              <button className="event-button" onClick={() => handleRegisterClick(event.id)}>Register</button>
+              <a href={event.reg}><button className="event-button">Register</button></a>
             </div>
           </div>
         ))}
