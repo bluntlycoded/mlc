@@ -202,8 +202,9 @@ const Home = () => {
       </section>
 
 <section className='upce'>
+<h2>Upcoming Events</h2>
       <section className="upcoming-events">
-        <h2>Upcoming Events</h2>
+        
         {upcomingEventsData.map(event => (
           <div key={event.id} className="event-card">
             <img src={event.poster} width={250} height={250} alt='event_img'/>

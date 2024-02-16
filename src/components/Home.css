@@ -251,7 +251,7 @@
   }
   .cmr{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 50px;
+    font-size: 0px;
   }
   @keyframes countUp {
     from {
@@ -262,6 +262,9 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  .abs{
+    text-align: justify;
   }
   
   .stats-container::after {
