@@ -251,7 +251,7 @@
   }
   .cmr{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0px;
+    font-size: 30px;
   }
   @keyframes countUp {
     from {
