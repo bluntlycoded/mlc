@@ -16,7 +16,8 @@ const Events = () => {
       location: 'AB1-4th Floor',
       description: 'Join us for an exciting tech conference featuring industry experts and cutting-edge technologies.',
       poster: esc, // Add the actual image path
-      reg:'https://vtop1.vitap.ac.in/VTAPP/'
+      reg:'https://vtop1.vitap.ac.in/VTAPP/',
+      more_info:'https://vtapp.vitap.ac.in/events/get-out.',
     },
     {
       id: 2,
@@ -24,7 +25,9 @@ const Events = () => {
       date: ' 22nd February 2023',
       location: 'CB-IIEC',
       description: 'Participate in our annual hackathon and showcase your coding skills. Exciting prizes await!',
-      poster: cds, // Add the actual image path
+      poster: cds, 
+      more_info:'https://vtapp.vitap.ac.in/events/innovation-in-deep-tech-coderhunt',
+      reg:'https://vtop1.vitap.ac.in/VTAPP/',
     },
     {
       id: 3,
@@ -32,7 +35,9 @@ const Events = () => {
       date: '22nd-23rd February, 2024',
       location: 'AB-01 4th Floor ',
       description: 'Participate in our annual hackathon and showcase your coding skills. Exciting prizes await!',
-      poster: arc, // Add the actual image path
+      poster: arc,
+      more_info:'https://vtapp.vitap.ac.in/events/arcade-zone/',
+      reg:'https://vtop1.vitap.ac.in/VTAPP/',
     },
     {
       id: 4,
@@ -40,7 +45,9 @@ const Events = () => {
       date: '22nd-23rd February 2024',
       location: 'AB-01 4th Floor',
       description: 'Participate in our annual hackathon and showcase your coding skills. Exciting prizes await!',
-      poster: vsc, // Add the actual image path
+      poster: vsc, 
+      more_info:'https://vtapp.vitap.ac.in/events/velocity-vortex',
+      reg:'https://vtop1.vitap.ac.in/VTAPP/',
     },
   
     // Add more upcoming events as needed
@@ -116,7 +123,7 @@ const Events = () => {
               <p>{event.description}</p>
             </div>
             <div className="event-buttons">
-              <button className="event-button" onClick={() => handleInfoClick(event.id)}>More Info</button>
+            <a href={event.more_info}><button className="event-button">More Info</button></a>
               <a href={event.reg}><button className="event-button">Register</button></a>
             </div>
           </div>
