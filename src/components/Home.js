@@ -159,7 +159,7 @@ const Home = () => {
         <Slider images={images} />
       </section>
 
-      <section className="about-section">
+      <section className="about-section abs">
         <h2>About Us</h2>
         <br/>
         <div style={{ display: 'flex' }}>
@@ -241,19 +241,19 @@ const Home = () => {
         <div className="stats-container">
           <div className="stat-card">
             <h3>Projects Made</h3>
-            <p className='cmr countUp'>20+</p>
+            <p className='cmr'>20+</p>
             <p>And Counting</p>
             <button className="learn-more-button abpc"onClick={Projects}>Learn More</button>
           </div>
           <div className="stat-card">
             <h3>Events Till Date</h3>
-            <p className='cmr countUp'>50+</p>
+            <p className='cmr'>50+</p>
             <p>Conducted Successfully</p>
             <button className="learn-more-button abpc"onClick={Events}>Learn More</button>
           </div>
           <div className="stat-card">
             <h3>Our Family Size</h3>
-            <p className='cmr countUp'>250+</p>
+            <p className='cmr'>250+</p>
             <p>Active Members</p>
             <button className="learn-more-button abpc"onClick={Dept}>Know More</button>
           </div>
