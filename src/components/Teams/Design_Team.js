@@ -1,7 +1,7 @@
 // DesignT.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';

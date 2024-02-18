@@ -150,72 +150,111 @@ const teamMembers = [
 const ResearchT = () => {
   return (
     <div>
-        <Navbar/>
-        <h1>Research Team</h1>
-      <div className="row">
-        {/* Lead */}
-        <div className="col-md-6">
-          <div className="card">
-            <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
-            <div className="card-body">
-              <h5 className="card-title">{teamMembers[0].name}</h5>
-              <p className="card-text">{teamMembers[0].position}</p>
-              <div className="social-icons">
-                <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Co-Lead */}
-        <div className="col-md-6">
-          <div className="card">
-            <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[1].name} />
-            <div className="card-body">
-              <h5 className="card-title">{teamMembers[1].name}</h5>
-              <p className="card-text">{teamMembers[1].position}</p>
-              <div className="social-icons">
-                <a href={teamMembers[1].linkedin} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
-            </div>
+    <Navbar/>
+    <h1 className='h1s'>Projects Team</h1>
+  <div className="row">
+    {/* Lead */}
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[0].name}</h5>
+          <p className="card-text">{teamMembers[0].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+
+            </a>
+            <a href={teamMembers[0].github} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+              </a>
           </div>
         </div>
       </div>
-      {/* Other Team Members */}
-      {/* Team Information Table */}
-      <table className="table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Registration</th>
-            <th>LinkedIn</th>
-            <th>Instagram</th>
-            <th>Github</th>
-          </tr>
-        </thead>
-        <tbody>
-          {teamMembers.slice(2).map((member, index) => (
-            <tr key={index}>
-              <td>{member.name}</td>
-              <td>{member.registration}</td>
-              <td>{member.linkedin}</td>
-              <td>{member.instagram}</td>
-              <td>{member.github}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      <Footer/>
     </div>
+    {/* Co-Lead */}
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[1].name} width={250} height={250}/>
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[1].name}</h5>
+          <p className="card-text">{teamMembers[1].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[1].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href={teamMembers[2].github} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[2].imageUrl} className="card-img-top" alt={teamMembers[2].name} width={250} height={250}/>
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[2].name}</h5>
+          <p className="card-text">{teamMembers[2].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[2].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[2].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href={teamMembers[2].github} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Other Team Members */}
+  {/* Team Information Table */}
+  <h2 className='h1s'>Team Members</h2>
+  <div className='tbl'>
+  <table className="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Registration No.</th>
+        <th>Connect With</th>
+      </tr>
+    </thead>
+    <tbody>
+      {teamMembers.slice(3).map((member, index) => (
+        <tr key={index}>
+          <td>{member.name}
+          
+          
+              </td>
+          <td>{member.registration}</td>
+<td>
+<a href={member.github} target="_blank" rel="noopener noreferrer" className='ls'>
+              <FontAwesomeIcon icon={faGithub} />
+              </a>
+
+              <a href={member.instagram} target="_blank" rel="noopener noreferrer"className='lss'>
+              <FontAwesomeIcon icon={faInstagram} /></a>
+              
+              <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className='ls'>
+              <FontAwesomeIcon icon={faLinkedin} /></a>
+</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  </div>
+  <Footer/>
+</div>
   );
 };
 
