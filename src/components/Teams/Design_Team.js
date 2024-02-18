@@ -219,7 +219,7 @@ const DesignT = () => {
           </tr>
         </thead>
         <tbody>
-          {teamMembers.slice(2).map((member, index) => (
+          {teamMembers.slice(3).map((member, index) => (
             <tr key={index}>
               <td>{member.name}</td>
               <td>{member.registration}</td>

@@ -7,7 +7,7 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 const teamMembers = [
   {
-    name: '',
+    name: 'Veligotla Janana Maanasa Devi',
     position: 'Team Lead',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
