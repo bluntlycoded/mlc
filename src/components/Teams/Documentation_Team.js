@@ -1,51 +1,81 @@
 // DocT.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 const teamMembers = [
   {
-    name: 'Lead Name',
+    name: 'Nithya Ancha',
     position: 'Team Lead',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
   {
-    name: 'Co-Lead Name',
-    position: 'Co-Team Lead',
+    name: 'Yamini Guruvelli',
+    position: 'Team Lead',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
   // Add more team members as needed
   {
-    name: 'Member 1',
-    position: 'Role 1',
+    name: 'N Pragnya',
+    position: 'Member',
     imageUrl: 'member1.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
-    github: 'https://github.com/member1-github/',
-    registration: 'Registration 1',
+    registration: '22BCE7277',
   },
   {
-    name: 'Member 2',
-    position: 'Role 2',
+    name: 'Shaik Arshia',
+    position: 'Member',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
-    github: 'https://github.com/member2-github/',
-    registration: 'Registration 2',
+    registration: '23BCE9156',
+  },
+  {
+    name: 'Mrudula Joshi',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7464',
+  },
+  {
+    name: 'Aadya Nair',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE9180',
+  },
+  {
+    name: 'Thiyanesh S',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE7088',
+  },
+  {
+    name: 'Naga Sindhu P',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE7111',
   },
 ];
 
 const DocT = () => {
   return (
     <div>
-        <Navbar/>
-        <h1>Documentation</h1>
+      <Navbar />
+      <h1 className='h1s'>Documentation</h1>
       <div className="row">
         {/* Lead */}
         <div className="col-md-6">
@@ -86,29 +116,36 @@ const DocT = () => {
       </div>
       {/* Other Team Members */}
       {/* Team Information Table */}
-      <table className="table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Registration</th>
-            <th>LinkedIn</th>
-            <th>Instagram</th>
-            <th>Github</th>
-          </tr>
-        </thead>
-        <tbody>
-          {teamMembers.slice(2).map((member, index) => (
-            <tr key={index}>
-              <td>{member.name}</td>
-              <td>{member.registration}</td>
-              <td>{member.linkedin}</td>
-              <td>{member.instagram}</td>
-              <td>{member.github}</td>
+      <h2 className='h1s'>Team Members</h2>
+      <div className='tbl'>
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Registration No.</th>
+              <th>Connect With</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <Footer/>
+          </thead>
+          <tbody>
+            {teamMembers.slice(3).map((member, index) => (
+              <tr key={index}>
+                <td>{member.name}
+
+
+                </td>
+                <td>{member.registration}</td>
+                <td>              <a href={member.instagram} target="_blank" rel="noopener noreferrer" className='lss'>
+                  <FontAwesomeIcon icon={faInstagram} /></a>
+
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className='ls'>
+                    <FontAwesomeIcon icon={faLinkedin} /></a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <Footer />
     </div>
   );
 };
