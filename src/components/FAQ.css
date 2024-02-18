@@ -51,6 +51,9 @@
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
+  .h1s{
+    text-align: center;
+  }
   
   .faq-item.active .faq-answer {
     max-height: 500px; /* Adjust the max-height based on your content */

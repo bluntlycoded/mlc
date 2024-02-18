@@ -37,12 +37,52 @@ const teamMembers = [
     registration: 'Registration 1',
   },
   {
-    name: 'Member 2',
-    position: 'Role 2',
+    name: 'Abu Suleman Khan',
+    position: 'Club Advisor',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: 'Registration 2',
+  },
+  {
+    name: 'Sathwik Sangani',
+    position: 'Managing Director',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7808',
+  },
+  {
+    name: 'Uthra Balakrishna',
+    position: 'Club Secratary',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCB7134',
+  },
+  {
+    name: 'A Rajesh Chowdary',
+    position: 'Opreations Manager Technical',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7089',
+  },
+  {
+    name: 'Lalitha',
+    position: 'Club Manager',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '21BCE9560',
+  },
+  {
+    name: 'Garima Baid',
+    position: 'Communications Incharge',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE8815',
   },
 ];
 
@@ -52,6 +92,77 @@ const AdminT = () => {
         <Navbar/>
         <h1 className='h1s'>Admin Team</h1>
       <div className="row">
+        {/* FACULTY CO-ORDINATOR-01 */}
+        <div className='row'>
+      <div className="col-md-6">
+          <div className="card">
+            <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[0].name}</h5>
+              <p className="card-text">{teamMembers[0].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <h1 className='h1s'>About Dr. Khasim</h1>
+          <p className='h2s'></p>
+          </div>
+        </div>
+<div className="row">
+  <h1 className='h1s'>Club Advisors</h1>
+        {/* ADVISOR-01 */}
+      <div className="col-md-6">
+          <div className="card">
+            <img src={teamMembers[3].imageUrl} className="card-img-top" alt={teamMembers[4].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[3].name}</h5>
+              <p className="card-text">{teamMembers[3].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[3].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[3].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        
+        {/* ADVISOR-02 */}
+        <div className="col-md-6">
+          <div className="card">
+            <img src={teamMembers[4].imageUrl} className="card-img-top" alt={teamMembers[4].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[4].name}</h5>
+              <p className="card-text">{teamMembers[4].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[4].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[4].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <h1 className='h1s'>President & Vice President</h1>
         {/* Lead */}
         <div className="col-md-4">
           <div className="card">
@@ -127,7 +238,7 @@ const AdminT = () => {
           </tr>
         </thead>
         <tbody>
-          {teamMembers.slice(3).map((member, index) => (
+          {teamMembers.slice(5).map((member, index) => (
             <tr key={index}>
               <td>{member.name}</td>
               <td>{member.registration}</td>

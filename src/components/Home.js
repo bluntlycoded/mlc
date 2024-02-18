@@ -15,6 +15,7 @@ import Footer from './common/Footer';
 import ScrollToTopButton from './common/ScrollToTopButton';
 import getout from '../components/Images/Getout.png'
 import arcade from './Images/Arcade Zone.png'
+import Blogs from './Blog';
 
 
 const Home = () => {
@@ -47,10 +48,7 @@ const Home = () => {
     let path = `/project3`; 
     navigate(path);
   }
-  const odf = () =>{ 
-    let path = `https://vtop1.vitap.ac.in/VTAPP/`; 
-    navigate(path);
-  }
+  
   const [scrolling, setScrolling] = useState(false);
 
   const handleScroll = () => {
@@ -263,6 +261,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Blogs/>
       <Footer/>
     </div>
   );

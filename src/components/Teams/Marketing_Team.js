@@ -128,7 +128,7 @@ const MarketingT = () => {
   return (
     <div>
         <Navbar/>
-        <h1>Marketing Team</h1>
+        <h1 className='h1s'>Marketing Team</h1>
       <div className="row">
         {/* Lead */}
         <div className="col-md-6">
