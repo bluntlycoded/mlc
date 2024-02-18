@@ -7,14 +7,21 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 const teamMembers = [
   {
-    name: 'Lead Name',
+    name: '',
     position: 'Team Lead',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
   {
-    name: 'Co-Lead Name',
+    name: 'Mohit',
+    position: 'Co-Team Lead',
+    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
+    instagram: 'https://www.instagram.com/colead-instagram/',
+  },
+  {
+    name: 'Khushi Rajarkar',
     position: 'Co-Team Lead',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
@@ -22,22 +29,121 @@ const teamMembers = [
   },
   // Add more team members as needed
   {
-    name: 'Member 1',
-    position: 'Role 1',
-    imageUrl: 'member1.jpg', // Replace with the actual image URL
+    name: 'Lingal Lasya Kumari',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
     github: 'https://github.com/member1-github/',
-    registration: 'Registration 1',
+    registration: '21BCE8739',
   },
   {
-    name: 'Member 2',
-    position: 'Role 2',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
-    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
-    instagram: 'https://www.instagram.com/member2-instagram/',
-    github: 'https://github.com/member2-github/',
-    registration: 'Registration 2',
+    name: 'Samyata',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '21BCE7075',
+  },
+  {
+    name: 'Khushi Trilok Rawat',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '23BCE7131',
+  },
+  {
+    name: 'Giridhar Kanaparti',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '23BCE7605',
+  },
+  {
+    name: 'Divyansh Shukla',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '23BCE7950',
+  },
+  {
+    name: 'Venkata Dhanush',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '23BCE8172',
+  },
+  {
+    name: 'Siddhartha Vedagiri',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '23BCE9303',
+  },
+  {
+    name: 'Keerthi Kesawaran',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '22BCB7049',
+  },
+  {
+    name: 'Aswanth',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '21BCE8854',
+  },
+  {
+    name: 'Monisha Pallela',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '21BCE8665',
+  },
+  {
+    name: 'Nihaal',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '22BCE7828',
+  },
+  {
+    name: 'VV Karthik',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    github: 'https://github.com/member1-github/',
+    registration: '22BCE8239',
+  },
+  {
+    name: 'Swayam Srujan Tripathy',
+    position: 'Member',
+    imageUrl: 'member.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
+    instagram: 'https://www.instagram.com/member1-instagram/',
+    
+    registration: '22BCE8719',
   },
 ];
 
