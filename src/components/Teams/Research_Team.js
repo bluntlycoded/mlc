@@ -151,7 +151,7 @@ const ResearchT = () => {
   return (
     <div>
     <Navbar/>
-    <h1 className='h1s'>Projects Team</h1>
+    <h1 className='h1s'>Research Team</h1>
   <div className="row">
     {/* Lead */}
     <div className="col-md-4">

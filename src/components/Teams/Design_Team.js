@@ -148,44 +148,64 @@ const DesignT = () => {
     <div>
         <Navbar/>
         <h1>Design Team</h1>
-      <div className="row">
-        {/* Lead */}
-        <div className="col-md-6">
-          <div className="card">
-            <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
-            <div className="card-body">
-              <h5 className="card-title">{teamMembers[0].name}</h5>
-              <p className="card-text">{teamMembers[0].position}</p>
-              <div className="social-icons">
-                <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Co-Lead */}
-        <div className="col-md-6">
-          <div className="card">
-            <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[1].name} />
-            <div className="card-body">
-              <h5 className="card-title">{teamMembers[1].name}</h5>
-              <p className="card-text">{teamMembers[1].position}</p>
-              <div className="social-icons">
-                <a href={teamMembers[1].linkedin} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
-            </div>
+        <div className="row">
+    {/* Lead */}
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[0].name}</h5>
+          <p className="card-text">{teamMembers[0].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+
+            </a>
           </div>
         </div>
       </div>
+    </div>
+    {/* Co-Lead */}
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[1].name} width={250} height={250}/>
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[1].name}</h5>
+          <p className="card-text">{teamMembers[1].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[1].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <img src={teamMembers[2].imageUrl} className="card-img-top" alt={teamMembers[2].name} width={250} height={250}/>
+        <div className="card-body">
+          <h5 className="card-title">{teamMembers[2].name}</h5>
+          <p className="card-text">{teamMembers[2].position}</p>
+          <div className="social-icons">
+            <a href={teamMembers[2].linkedin} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={teamMembers[2].instagram} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
       {/* Other Team Members */}
       {/* Team Information Table */}
       <table className="table">
