@@ -297,7 +297,7 @@ const EventsT = () => {
   return (
     <div>
         <Navbar/>
-        <h1>Event Management Team</h1>
+        <h1 className='h1s'>Event Management Team</h1>
       <div className="row">
         {/* Lead */}
         <div className="col-md-6">
@@ -345,7 +345,7 @@ const EventsT = () => {
             <th>Registration</th>
             <th>LinkedIn</th>
             <th>Instagram</th>
-            <th>Github</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -355,7 +355,7 @@ const EventsT = () => {
               <td>{member.registration}</td>
               <td>{member.linkedin}</td>
               <td>{member.instagram}</td>
-              <td>{member.github}</td>
+              
             </tr>
           ))}
         </tbody>
