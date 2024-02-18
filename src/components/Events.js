@@ -94,16 +94,6 @@ const Events = () => {
     // Add more old events as needed
   ];
 
-  const handleInfoClick = (eventId) => {
-    // Placeholder logic for handling click for more information
-    console.log(`More info clicked for event ${eventId}`);
-  };
-
-  const handleRegisterClick = (eventId) => {
-    // Placeholder logic for handling click for registration
-    console.log(`Register clicked for event ${eventId}`);
-  };
-
   return (
     <div className="events-container">
       <Navbar />
