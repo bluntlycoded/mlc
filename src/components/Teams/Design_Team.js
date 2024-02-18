@@ -7,37 +7,139 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 const teamMembers = [
   {
-    name: 'Lead Name',
+    name: 'N Jahnavi',
     position: 'Team Lead',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
   {
-    name: 'Co-Lead Name',
+    name: 'Rithwik Stambamkadi',
+    position: 'Team Lead',
+    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
+    instagram: 'https://www.instagram.com/lead-instagram/',
+  },
+  {
+    name: 'Veekshita Pilli',
     position: 'Co-Team Lead',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
+    registration: '23BCE7769'
   },
   // Add more team members as needed
   {
-    name: 'Member 1',
-    position: 'Role 1',
+    name: 'Samyata',
+    position: 'Member',
     imageUrl: 'member1.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
-    github: 'https://github.com/member1-github/',
-    registration: 'Registration 1',
+    registration: '21BCE7075',
   },
   {
-    name: 'Member 2',
-    position: 'Role 2',
+    name: 'Sumit Kumar',
+    position: 'Member',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
-    github: 'https://github.com/member2-github/',
-    registration: 'Registration 2',
+    registration: '23BCE8816',
+  },
+  {
+    name: 'Herbert George',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7969',
+  },
+  {
+    name: 'Tejaswini',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE9621',
+  },
+  {
+    name: 'Sirisha Lolla',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7790',
+  },
+  {
+    name: 'Sri Lakshmi Andey',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE9243',
+  },
+  {
+    name: 'T Koojitha',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7087',
+  },
+  {
+    name: 'Alaparthi Teja Sree',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE7311',
+  },
+  {
+    name: 'Rudransh Garg',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE7727',
+  },
+  {
+    name: 'Sangeeth',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE8052',
+  },
+  {
+    name: 'Arun.K',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE9109',
+  },
+  {
+    name: 'M Sanhitha',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '23BCE7322',
+  },
+  {
+    name: 'T Anuhya',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE9234',
+  },
+  {
+    name: 'D.Sai Sujan',
+    position: 'Member',
+    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
+    instagram: 'https://www.instagram.com/member2-instagram/',
+    registration: '22BCE7813',
   },
 ];
 
