@@ -15,14 +15,14 @@ const teamMembers = [
   },
   {
     name: 'Mohit',
-    position: 'Co-Team Lead',
+    position: 'Team Co-Lead',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
   {
     name: 'Khushi Rajarkar',
-    position: 'Co-Team Lead',
+    position: 'Team Co-Lead',
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
