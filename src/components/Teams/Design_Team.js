@@ -215,7 +215,7 @@ const DesignT = () => {
             <th>Registration</th>
             <th>LinkedIn</th>
             <th>Instagram</th>
-            <th>Github</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -225,7 +225,6 @@ const DesignT = () => {
               <td>{member.registration}</td>
               <td>{member.linkedin}</td>
               <td>{member.instagram}</td>
-              <td>{member.github}</td>
             </tr>
           ))}
         </tbody>
