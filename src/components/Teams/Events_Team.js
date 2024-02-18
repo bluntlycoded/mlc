@@ -22,13 +22,13 @@ const teamMembers = [
   },
   // Add more team members as needed
   {
-    name: 'Member 1',
-    position: 'Role 1',
+    name: 'Chitoor Karthik Kumar',
+    position: 'Member',
     imageUrl: 'member1.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
     github: 'https://github.com/member1-github/',
-    registration: 'Registration 1',
+    registration: '23BCE9629',
   },
   {
     name: 'Member 2',

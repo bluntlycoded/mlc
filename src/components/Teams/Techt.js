@@ -31,7 +31,7 @@ const teamMembers = [
     registration: '23BCE8573',
   },
   {
-    name: 'Laxmi',
+    name: 'S Lakshmi Naga Sai',
     position: 'Member',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
@@ -55,7 +55,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     github: 'https://github.com/member2-github/',
-    registration: '---',//no registration number
+    registration: '22BCE7730',
   },
   {
     name: 'Shruti',
@@ -94,7 +94,7 @@ const teamMembers = [
     registration: '23BCE8444',
   },
   {
-    name: 'Aditya W',
+    name: 'Aditya Wilson',
     position: 'Member',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
