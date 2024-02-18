@@ -29,8 +29,8 @@ const teamMembers = [
   },
   // Add more team members as needed
   {
-    name: 'Member 1',
-    position: 'Role 1',
+    name: 'V Yashasvi Koushik',
+    position: 'Club Advisor',
     imageUrl: 'member1.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
