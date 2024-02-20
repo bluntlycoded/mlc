@@ -245,19 +245,19 @@ const Home = () => {
         <div className="stats-container">
           <div className="stat-card">
             <h3>Projects Made</h3>
-            <p className='cmr countUp'>20+</p>
+            <p className='cmr counter'>20+</p>
             <p>And Counting</p>
             <button className="learn-more-button abpc"onClick={Projects}>Learn More</button>
           </div>
           <div className="stat-card">
             <h3>Events Till Date</h3>
-            <p className='cmr countUp'>50+</p>
+            <p className='cmr counter'>50+</p>
             <p>Conducted Successfully</p>
             <button className="learn-more-button abpc"onClick={Events}>Learn More</button>
           </div>
           <div className="stat-card">
             <h3>Our Family Size</h3>
-            <p className='cmr countUp'>250+</p>
+            <p className='cmr counter'>250+</p>
             <p>Active Members</p>
             <button className="learn-more-button abpc"onClick={Dept}>Know More</button>
           </div>
