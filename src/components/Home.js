@@ -15,7 +15,6 @@ import Footer from './common/Footer';
 import ScrollToTopButton from './common/ScrollToTopButton';
 import getout from '../components/Images/Getout.png'
 import arcade from './Images/Arcade Zone.png'
-import Blogs from './Blog';
 
 
 const Home = () => {
@@ -264,7 +263,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Blogs/>
       <Footer/>
     </div>
   );
