@@ -6,6 +6,7 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import PLead from '../../components/Images/Teams/Projects_Lead.jpg';
+import BackButton from '../common/BackButton';
 const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
@@ -255,6 +256,7 @@ const ProjectT = () => {
   return (
     <div>
         <Navbar/>
+        <BackButton/>
         <h1 className='h1s'>Projects Team</h1>
       <div className="row">
         {/* Lead */}

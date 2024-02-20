@@ -5,6 +5,7 @@ import './Departments.css'; // Create a corresponding CSS file for styling
 import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import {useNavigate} from 'react-router-dom'
+import BackButton from './common/BackButton';
 
 const Departments = () => {
   let navigate = useNavigate(); 
@@ -110,14 +111,12 @@ const Departments = () => {
     },
   ];
 
-  const handleMoreInfoClick = (departmentId) => {
-    // Placeholder logic for handling click for more information about the department
-    console.log(`More info clicked for department ${departmentId}`);
-  };
+
 
   return (
     <div className="departments-container">
       <Navbar />
+      <BackButton/>
       <header>
         <h1>Departments</h1>
         <p>Explore the different departments within our organization.</p>

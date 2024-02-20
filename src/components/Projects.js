@@ -5,6 +5,7 @@ import './Projects.css';
 import Navbar from './common/Navbar'; // Adjust the path based on your project structure
 import Footer from './common/Footer';
 import { useNavigate } from 'react-router-dom';
+import BackButton from './common/BackButton';
 
 
 const Projects = () => {
@@ -113,6 +114,7 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <Navbar />
+      <BackButton/>
       <header>
         <h1>Projects</h1>
         <p>Explore Our Latest Projects</p>

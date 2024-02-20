@@ -5,6 +5,7 @@ import { faLinkedin, faInstagram,} from '@fortawesome/free-brands-svg-icons';
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
+import BackButton from '../common/BackButton';
 const teamMembers = [
   {
     name: 'Satyaprakash Swain',
@@ -127,7 +128,8 @@ const SocialsT = () => {
   return (
     <div>
         <Navbar/>
-        <h1>Social Media Team</h1>
+        <BackButton/>
+        <h1 className='h1s'>Social Media Team</h1>
       <div className="row">
         {/* Lead */}
         <div className="col-md-6">

@@ -3,11 +3,13 @@ import './AboutUs.css'; // Create a corresponding CSS file for styling
 import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import FAQ from './FAQ';
+import BackButton from './common/BackButton';
 
 const AboutUs = () => {
   return (
     <div className="about-us-container">
        <Navbar/>
+       <BackButton/>
       <header>
         <h1>Welcome to Our Organization</h1>
         <p>Discover Our Story and Mission</p>

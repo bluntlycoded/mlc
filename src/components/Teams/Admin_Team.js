@@ -5,6 +5,7 @@ import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-i
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
+import BackButton from '../common/BackButton';
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -98,6 +99,7 @@ const AdminT = () => {
   return (
     <div>
         <Navbar/>
+        <BackButton/>
         <h1 className='h1s'>Admin Team</h1>
       <div className="row">
         {/* FACULTY CO-ORDINATOR-01 */}

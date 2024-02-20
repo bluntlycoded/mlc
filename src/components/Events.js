@@ -6,6 +6,7 @@ import cds from './Images/cds.jpeg'
 import esc from './Images/Getout.png'
 import vsc from './Images/(Velocity vortex)insta post1.png'
 import arc from './Images/Arcade Zone.png'
+import BackButton from './common/BackButton';
 
 const Events = () => {
   const upcomingEventsData = [
@@ -97,6 +98,7 @@ const Events = () => {
   return (
     <div className="events-container">
       <Navbar />
+      <BackButton/>
       <header>
         <h1>Upcoming Events</h1>
         <p>Explore and join our upcoming events.</p>

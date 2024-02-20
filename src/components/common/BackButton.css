@@ -1,0 +1,25 @@
+/* BackButton.css */
+
+/* Style for the button */
+.back-button {
+    margin-left: 30px;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fff; /* Change the color to match your design */
+    
+    
+  }
+  
+  /* Style for the FontAwesome icon */
+  .icon {
+    margin-right: 5px;
+  }
+ 
+  .back-button:hover{
+    background-color: #00040F;
+  }

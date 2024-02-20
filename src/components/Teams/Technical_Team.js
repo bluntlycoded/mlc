@@ -5,6 +5,7 @@ import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-i
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
+import BackButton from '../common/BackButton';
 const teamMembers = [
   {
     name: 'Diptorishi Tripathi',
@@ -162,6 +163,7 @@ const TechT = () => {
   return (
     <div>
         <Navbar/>
+        <BackButton/>
         <h1 className='h1s'>Technical Team</h1>
         <br/>
       <div className="row">

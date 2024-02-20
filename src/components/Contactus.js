@@ -3,11 +3,13 @@ import './ContactUs.css'; // Create a corresponding CSS file for styling
 import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import logo from '../components/Images/removebg.png'
+import BackButton from './common/BackButton';
 
 const ContactUs = () => {
   return (
     <div className="contact-us-container">
       <Navbar />
+      <BackButton/>
       <header>
         <h1>Contact Us</h1>
         <p>Get in touch with us for any inquiries or feedback.</p>

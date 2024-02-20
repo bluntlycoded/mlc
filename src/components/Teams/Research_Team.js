@@ -5,6 +5,7 @@ import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-i
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
+import BackButton from '../common/BackButton';
 const teamMembers = [
   {
     name: 'Veligotla Janana Maanasa Devi',
@@ -12,6 +13,7 @@ const teamMembers = [
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
+    github: '',
   },
   {
     name: 'Mohit',
@@ -19,6 +21,7 @@ const teamMembers = [
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
+    github: '',
   },
   {
     name: 'Khushi Rajarkar',
@@ -26,6 +29,7 @@ const teamMembers = [
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
+    github: '',
   },
   // Add more team members as needed
   {
@@ -151,6 +155,7 @@ const ResearchT = () => {
   return (
     <div>
     <Navbar/>
+    <BackButton/>
     <h1 className='h1s'>Research Team</h1>
   <div className="row">
     {/* Lead */}
