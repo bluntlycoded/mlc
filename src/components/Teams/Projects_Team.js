@@ -330,7 +330,7 @@ const ProjectT = () => {
           <tr>
             <th>Name</th>
             <th>Registration No.</th>
-            <th>Connect With</th>
+            <th>Connect At</th>
           </tr>
         </thead>
         <tbody>

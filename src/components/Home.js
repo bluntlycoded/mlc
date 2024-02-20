@@ -120,6 +120,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
+     
       <nav style={{
         color: "white",
         fontFamily: "Poppins",
@@ -131,7 +132,9 @@ const Home = () => {
         marginTop: "2",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)", // Added box shadow for a modern touch
       }} className={`navbar ${scrolling ? 'scrolling' : ''}`}>
-        <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "1.5rem", fontWeight: "bold" }}>The Machine Learning Club</Link>
+              {/* <img src={logo} alt="logo" style={{ width: "50px", height: "50px",padding:"0" }} className='nms' />
+              <br/> */}
+        <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "1.5rem", fontWeight: "bold",padding:"0px" }}>The Machine Learning Club</Link>
         <div className="nav-links">
           {/* {scrolling ? 'Scrolling' : 'Not Scrolling'} */}
           {/* Desktop Links */}

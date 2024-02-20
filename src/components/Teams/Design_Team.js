@@ -1,7 +1,7 @@
 // DesignT.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram,faGithub} from '@fortawesome/free-brands-svg-icons';
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
@@ -213,8 +213,8 @@ const DesignT = () => {
           <tr>
             <th>Name</th>
             <th>Registration</th>
-            <th>LinkedIn</th>
-            <th>Instagram</th>
+            <th>Connect At</th>
+            
             
           </tr>
         </thead>
@@ -223,8 +223,17 @@ const DesignT = () => {
             <tr key={index}>
               <td>{member.name}</td>
               <td>{member.registration}</td>
-              <td>{member.linkedin}</td>
-              <td>{member.instagram}</td>
+              <td>
+<a href={member.github} target="_blank" rel="noopener noreferrer" className='ls'>
+                  <FontAwesomeIcon icon={faGithub} />
+                  </a>
+
+                  <a href={member.instagram} target="_blank" rel="noopener noreferrer"className='lss'>
+                  <FontAwesomeIcon icon={faInstagram} /></a>
+                  
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className='ls'>
+                  <FontAwesomeIcon icon={faLinkedin} /></a>
+</td>
             </tr>
           ))}
         </tbody>

@@ -5,10 +5,18 @@ import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-i
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
+const facultyco = [
+  {
+    name: 'Dr. Khasim Syed',
+    position: 'Faculty Co-Ordinator',
+    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
+    instagram: 'https://www.instagram.com/lead-instagram/',
+  },];
 const teamMembers = [
   {
     name: 'Irfan Sadiq Rahat',
-    position: 'Team Lead',
+    position: 'President',
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
@@ -96,15 +104,15 @@ const AdminT = () => {
         <div className='row'>
       <div className="col-md-6">
           <div className="card">
-            <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
+            <img src={facultyco[0].imageUrl} className="card-img-top" alt={facultyco[0].name} />
             <div className="card-body">
-              <h5 className="card-title">{teamMembers[0].name}</h5>
-              <p className="card-text">{teamMembers[0].position}</p>
+              <h5 className="card-title">{facultyco[0].name}</h5>
+              <p className="card-text">{facultyco[0].position}</p>
               <div className="social-icons">
-                <a href={teamMembers[0].linkedin} target="_blank" rel="noopener noreferrer">
+                <a href={facultyco[0].linkedin} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
+                <a href={facultyco[0].instagram} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
@@ -115,7 +123,7 @@ const AdminT = () => {
         </div>
         <div className="col-md-6">
           <h1 className='h1s'>About Dr. Khasim</h1>
-          <p className='h2s'></p>
+          <p className='h2s'>Specialization Areas: Network Security & Cryptography, Data & Web Mining, Software Engineering, Software Quality Assurance, Human Computer Interaction</p>
           </div>
         </div>
 <div className="row">
@@ -233,8 +241,8 @@ const AdminT = () => {
             <th>Name</th>
             <th>Registration</th>
             <th>Positions</th>
-            <th>Instagram</th>
-            <th>LinkedIn</th>
+            <th>Connect At</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -243,8 +251,18 @@ const AdminT = () => {
               <td>{member.name}</td>
               <td>{member.registration}</td>
               <td>{member.position}</td>
-              <td>{member.instagram}</td>
-              <td>{member.linkedin}</td>
+              <td>
+<a href={member.github} target="_blank" rel="noopener noreferrer" className='ls'>
+                  <FontAwesomeIcon icon={faGithub} />
+                  </a>
+
+                  <a href={member.instagram} target="_blank" rel="noopener noreferrer"className='lss'>
+                  <FontAwesomeIcon icon={faInstagram} /></a>
+                  
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className='ls'>
+                  <FontAwesomeIcon icon={faLinkedin} /></a>
+</td>
+             
             </tr>
           ))}
         </tbody>

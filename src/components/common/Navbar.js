@@ -1,6 +1,7 @@
 import {React,useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../Images/removebg.png'
 
 const Navbar = () => {
     const [scrolling, setScrolling] = useState(false);
@@ -35,7 +36,8 @@ const Navbar = () => {
       fontStyle: "bold",
       boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)", // Added box shadow for a modern touch
     }} className={`navbar ${scrolling ? 'scrolling' : ''}`}>
-      <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "1.5rem", fontWeight: "bold" }}>The Machine Learning Club</Link>
+      <img src={logo} alt="logo" style={{ width: "50px", height: "50px" }} />
+      {/* <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "1.5rem", fontWeight: "bold" }}className='nms'>The Machine Learning Club</Link> */}
       <div className="nav-links">
       {/* {scrolling ? 'Scrolling' : 'Not Scrolling'} */}
         {/* Desktop Links */}

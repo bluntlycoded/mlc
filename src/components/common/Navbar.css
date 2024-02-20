@@ -52,6 +52,10 @@ nav ul {
   .mobile-menu {
     display: inline-block;
   }
+  .nms{
+  
+    padding: 0;
+  }
 
   .mobile-menu ul {
     display: none;

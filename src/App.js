@@ -8,7 +8,7 @@ import Events from './components/Events';
 import Departments from './components/Departments';
 import Projects from './components/Projects';
 import ProjectT from './components/Teams/Projects_Team';
-import Techt from './components/Teams/Techt';
+import Techt from './components/Teams/Technical_Team';
 import AdminT from './components/Teams/Admin_Team';
 import ResearchT from './components/Teams/Research_Team';
 import DesignT from './components/Teams/Design_Team';
