@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hand_Cricket() {
+export default function HairStyleRecommendation() {
   return (
     <div>
       

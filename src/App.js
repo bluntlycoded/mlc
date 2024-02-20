@@ -17,9 +17,9 @@ import SocialsT from './components/Teams/Socials_Team';
 import MarketingT from './components/Teams/Marketing_Team';
 import OutreachT from './components/Teams/Outreach_Team';
 import EventsT from './components/Teams/Events_Team';
-import Study_Buddy from './components/Project_Details/Study_Buddy';
-import HairStyle_Recommendation from './components/Project_Details/HairStyle_Recommendation';
-import Hand_Cricket from './components/Project_Details/Hand_Cricket';
+import StudyBuddy from './components/Project_Details/StudyBuddy';
+import HairStyleRecommendation from './components/Project_Details/HairStyleRecommendation';
+import HandCricket from './components/Project_Details/HandCricket';
 
 
 const App = () => {
@@ -42,9 +42,9 @@ const App = () => {
         <Route path="/marketing-team" element={<MarketingT />} />
         <Route path="/outreach-pr-team" element={<OutreachT />} />
         <Route path="/events-mgt-team" element={<EventsT />} />
-        <Route path="/project1" element={<HairStyle_Recommendation />} />
-        <Route path="/project2" element={<Hand_Cricket />} />
-        <Route path="/project3" element={<Study_Buddy />} />
+        <Route path="/project1" element={<HairStyleRecommendation />} />
+        <Route path="/project2" element={<HandCricket />} />
+        <Route path="/project3" element={<StudyBuddy />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HairStyle_Recommendation() {
+export default function StudyBuddy() {
   return (
     <div>
       
