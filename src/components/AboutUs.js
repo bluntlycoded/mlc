@@ -14,7 +14,7 @@ const AboutUs = () => {
         <h1>Welcome to Our Organization</h1>
         <p>Discover Our Story and Mission</p>
       </header>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex' }} className='info'>
       <div style={{ flex: 1, marginRight: '20px' }}>
       <section className="overview">
         <h2>Who We Are</h2>

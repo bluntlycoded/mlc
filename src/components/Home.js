@@ -116,6 +116,10 @@ const Home = () => {
       info_page: Pr3,
     },
   ];
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
 
   return (
     <div className="home-container">
@@ -137,25 +141,30 @@ const Home = () => {
         <div className="nav-links">
           {/* {scrolling ? 'Scrolling' : 'Not Scrolling'} */}
           {/* Desktop Links */}
-          <ul className="desktop-links" style={{ display: "flex", gap: "1rem" }}>
-            <li><Link to="/" style={{ textDecoration: "none", color: "white" }}>Home</Link></li>
+          <div className='desktop'>
+            <ul className="desktop-links" style={{ display: "flex", gap: "1rem" }}>
+              <li><Link to="/" style={{ textDecoration: "none", color: "white" }}>Home</Link></li>
 
-            <li><Link to="/about" style={{ textDecoration: "none", color: "white" }}>About Us</Link></li>
-            <li><Link to="/contact" style={{ textDecoration: "none", color: "white" }}>Contact Us</Link></li>
-            <li><Link to="/projects" style={{ textDecoration: "none", color: "white" }}>Projects</Link></li>
-            <li><Link to="/events" style={{ textDecoration: "none", color: "white" }}>Events</Link></li>
-            <li><Link to="/departments" style={{ textDecoration: "none", color: "white" }}>Departments</Link></li>
-          </ul>
-          {/* Mobile Menu */}
-          <div className="mobile-menu" style={{ display: "none" }}>
-            <Link to="/menu" className="menu-icon" style={{ fontSize: "1.5rem", color: "white" }}>☰</Link>
-            <ul style={{ listStyle: "none", padding: "0", margin: "0" }}>
               <li><Link to="/about" style={{ textDecoration: "none", color: "white" }}>About Us</Link></li>
               <li><Link to="/contact" style={{ textDecoration: "none", color: "white" }}>Contact Us</Link></li>
-              <li><Link to="/achievements" style={{ textDecoration: "none", color: "white" }}>Achievements</Link></li>
+              <li><Link to="/projects" style={{ textDecoration: "none", color: "white" }}>Projects</Link></li>
               <li><Link to="/events" style={{ textDecoration: "none", color: "white" }}>Events</Link></li>
               <li><Link to="/departments" style={{ textDecoration: "none", color: "white" }}>Departments</Link></li>
             </ul>
+          </div>
+          {/* Mobile Menu */}
+          <div className='mobile'>
+            <div className="mobile-menu" style={{ display: mobileMenuOpen ? "block" : "none" }}>
+              
+              <ul style={{ listStyle: "none", padding: "0", margin: "0" }}>
+                <li><Link to="/about" style={{ textDecoration: "none", color: "white" }}>About Us</Link></li>
+                <li><Link to="/contact" style={{ textDecoration: "none", color: "white" }}>Contact Us</Link></li>
+                <li><Link to="/projects" style={{ textDecoration: "none", color: "white" }}>Projects</Link></li>
+                <li><Link to="/events" style={{ textDecoration: "none", color: "white" }}>Events</Link></li>
+                <li><Link to="/departments" style={{ textDecoration: "none", color: "white" }}>Departments</Link></li>
+              </ul>
+            </div>
+            <Link to="#" className="menu-icon" style={{ fontSize: "1.5rem", color: "white" }} onClick={toggleMobileMenu}>☰</Link>
           </div>
         </div>
       </nav>
@@ -166,8 +175,8 @@ const Home = () => {
       <section className="about-section ">
         <h2>About Us</h2>
         <br/>
-        <div style={{ display: 'flex' }}>
-          <div style={{ flex: 1, marginRight: '20px' }}>
+        <div style={{ display: 'flex' }} className='inner-child'>
+          <div style={{ flex: 1, marginRight: '20px' }} className='first-column'>
             {/* Content for the first column */}
             <img src={logo} alt='logimg'/>
             <h2 className='abpc'>Exploring,Innovating,Redefining</h2>
