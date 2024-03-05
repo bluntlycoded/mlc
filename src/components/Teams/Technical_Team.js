@@ -1,5 +1,5 @@
 // TechT.js
-import React from 'react';
+import {React,useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Teams.css'
@@ -160,6 +160,10 @@ const teamMembers = [
 ];
 
 const TechT = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div>
         <Navbar/>

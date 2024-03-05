@@ -119,7 +119,7 @@ const Departments = () => {
       <BackButton/>
       <header>
         <h1>Departments</h1>
-        <p>Explore the different departments within our organization.</p>
+        <p>Explore the different departments within our Club.</p>
       </header>
 
       <section className="departments-list">

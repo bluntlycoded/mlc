@@ -180,7 +180,7 @@ const Home = () => {
             <img src={logo} alt='logimg'/>
             <h2 className='abpc'>Exploring,Innovating,Redefining</h2>
               </div>
-          <div style={{ flex: 1 }} className='abp abpc'>
+          <div style={{ flex: 1 }} className='abp'>
             {/* Content for the second column */}
             <p>The Machine Learning Club (MLC) at VIT AP is a dynamic community of AI enthusiasts dedicated to exploring the vast realm of machine learning and artificial intelligence. Committed to fostering collaboration, MLC aims to empower students to delve into machine learning, stay abreast of the latest advancements, and apply their knowledge to real-world challenges. The club prioritizes cultivating an environment of curiosity, innovation, and shared passion for AI, welcoming members of all expertise levels. MLC's diverse and inclusive community encourages contributions from everyone, creating a space where innovation and excellence thrive across Web and App Development, Machine Learning, and UI/UX Design.</p>
             <button className="learn-more-button" onClick={AboutUs}>Learn More</button>

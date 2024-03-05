@@ -11,7 +11,7 @@ const AboutUs = () => {
        <Navbar/>
        <BackButton/>
       <header>
-        <h1>Welcome to Our Organization</h1>
+        <h1>Welcome to Our Club</h1>
         <p>Discover Our Story and Mission</p>
       </header>
       <div style={{ display: 'flex' }} className='info'>
