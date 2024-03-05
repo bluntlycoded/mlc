@@ -13,6 +13,7 @@ const teamMembers = [
     imageUrl: 'lead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
+    github:''
   },
   {
     name: 'Kushaj Solanki',
@@ -20,6 +21,7 @@ const teamMembers = [
     imageUrl: 'colead.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
+    github:'',
   },
   // Add more team members as needed
   {
@@ -185,6 +187,9 @@ const TechT = () => {
                 <a href={teamMembers[0].instagram} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
+                <a href={teamMembers[0].github} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
               </div>
             </div>
           </div>
@@ -202,6 +207,10 @@ const TechT = () => {
                 </a>
                 <a href={teamMembers[1].instagram} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faInstagram} />
+
+                </a>
+                <a href={teamMembers[1].github} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
             </div>
