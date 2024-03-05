@@ -231,3 +231,30 @@
   .our-stats-section {
     margin-bottom: 2rem;
   }
+
+  @media(max-width:780px){
+    .home-container{
+      width: 100vw;
+    }
+    .slider-section{
+      width: 100vw;
+    }
+    .first-column{
+      width: 50vw;
+    }
+    .inner-child{
+      flex-direction: column;
+      align-items: center;
+    }
+    .abpc{
+      font-size: large;
+    }
+    .specialization-row{
+      flex-direction: column;
+      align-items: center;
+    }
+    .upcoming-events{
+      flex-direction: column;
+      align-items: center;
+    }
+  }

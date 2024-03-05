@@ -41,4 +41,8 @@
   .dns{
     align-items: center;
   }
-  
+@media (max-width:768px){
+  .info{
+    flex-direction: column;
+  }
+}

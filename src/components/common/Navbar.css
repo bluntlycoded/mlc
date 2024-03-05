@@ -42,14 +42,23 @@ nav ul {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.mobile{
+  display: none;
+}
 /* Media query for mobile menu display */
 @media (max-width: 768px) {
+  .navbar{
+    width: 100vw;
+    
+  }
   .desktop-links {
     display: none;
   }
+  .desktop{
+    display: none;
+  }
 
-  .mobile-menu {
+  .mobile {
     display: inline-block;
   }
   .nms{
@@ -58,7 +67,8 @@ nav ul {
   }
 
   .mobile-menu ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 60px; /* Adjust the top position based on your design */
     left: 0;
@@ -73,6 +83,6 @@ nav ul {
   }
 
   .menu-icon {
-    display: none;
+    display: block;
   }
 }

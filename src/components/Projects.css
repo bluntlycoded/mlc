@@ -65,4 +65,10 @@
   .register-button:hover {
     background-color: #1b5998;
   }
-  
+@media(max-width:768px){
+  .project-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

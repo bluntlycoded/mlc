@@ -15,7 +15,7 @@ const ContactUs = () => {
         <p>Get in touch with us for any inquiries or feedback.</p>
       </header>
       <div className="columns">
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex' }} className='contact-mobile'>
       <div style={{ flex: 1, marginRight: '20px' }}>
       <section className="contact-form">
         <h2>Send us a Message</h2>

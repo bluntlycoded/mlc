@@ -61,4 +61,8 @@
   button:hover {
     background-color: #1b5998;
   }
-  
+@media (max-width:768px){
+  .contact-mobile{
+    flex-direction: column;
+  }
+}
