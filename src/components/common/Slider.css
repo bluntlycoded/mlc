@@ -6,6 +6,7 @@
     height: 600px;
     overflow: hidden;
     position: relative;
+    padding-bottom: -10%;
   }
   
   /* Style for each slide */

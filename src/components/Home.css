@@ -85,7 +85,9 @@
   
   .abpc{
     text-align: center;
-    padding: 2rem;
+    
+  
+    
   }
   
   .learn-more-button {
@@ -120,8 +122,11 @@
 
 
 .slider-section {
-    margin-top: 2rem;
-    height: 100vh; /* Set the height of the slider */
+    margin-top: 0rem;
+    height: 100%; /* Set the height of the slider */
+    overflow: hidden; /* Hide the overflowing content */
+    position: relative; /* Set the position to relative */
+
   }
 
   
@@ -247,7 +252,8 @@
       align-items: center;
     }
     .abpc{
-      font-size: large;
+      display: none;
+      
     }
     .specialization-row{
       flex-direction: column;
