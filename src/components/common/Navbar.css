@@ -9,7 +9,7 @@
 
 /* Styling when scrolling */
 .navbar.scrolling {
-  background-color: #1b1c1d; /* Change background color when scrolling */
+  background-color: #00040F; /* Change background color when scrolling */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow when scrolling */
 }
 
@@ -29,7 +29,7 @@ nav ul {
 .mobile-menu li {
   display: inline-block;
   margin-right: 1rem;
-  background-color: #1b1c1d;
+  background-color: #00040F;
 }
 .desktop-links li{
   display: inline-block;
@@ -69,7 +69,7 @@ nav ul {
     position: absolute;
     top: 60px; /* Adjust the top position based on your design */
     left: 0;
-    background-color: #1b1c1d;
+    background-color: #00040F;
     width: 100%;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
