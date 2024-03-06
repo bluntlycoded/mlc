@@ -30,6 +30,9 @@
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
   }
   /* Specializations.css */
 

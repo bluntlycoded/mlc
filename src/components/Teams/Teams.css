@@ -50,7 +50,22 @@ align-items: center;
   font-size: 16px;
   margin-top: auto;
   transition-duration: 0.4s;
-
+  width: 50%;
+}
+.learn-more-button-2{
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: auto;
+  transition-duration: 0.4s;
+  width: 20%;
 }
 .card-body {
   text-align: center;
@@ -149,5 +164,8 @@ text-align: center;
   }
   .table{
     width: 95vw;
+  }
+  .learn-more-button-2{
+    width: 50%;
   }
 }

@@ -228,7 +228,7 @@ const Home = () => {
         ))}
       </section>
 <ScrollToTopButton/>
-      <button className="learn-more-button"onClick={Events}>All Events</button>
+      <button className="learn-more-button-2"onClick={Events}>All Events</button>
       </section>
 
       <section className='prjd'>
@@ -246,7 +246,7 @@ const Home = () => {
         ))}
       </section>
 
-      <button className="learn-more-button abpc"onClick={Projects}>All Projects</button>
+      <button className="learn-more-button-2 abpc"onClick={Projects}>All Projects</button>
       </section>
       <section className="our-stats-section">
         <h2>MLC Family</h2>
