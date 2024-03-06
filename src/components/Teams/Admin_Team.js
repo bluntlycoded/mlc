@@ -101,7 +101,7 @@ const AdminT = () => {
         <Navbar/>
         <BackButton/>
         <h1 className='h1s'>Admin Team</h1>
-      <div className="row">
+      <div className="row-parent">
         {/* FACULTY CO-ORDINATOR-01 */}
         <div className='row'>
       <div className="col-md-6">
@@ -174,6 +174,7 @@ const AdminT = () => {
         </div>
         <h1 className='h1s'>President & Vice President</h1>
         {/* Lead */}
+        <div className='main-lead'>
         <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
@@ -232,6 +233,7 @@ const AdminT = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       {/* Other Team Members */}
       {/* Team Information Table */}

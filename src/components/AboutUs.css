@@ -23,7 +23,9 @@
   }
   
   /* Add more styling as needed */
-  
+  .info{
+    flex-direction: column;
+  }
   /* Example of adding a fade-in animation */
   @keyframes fadeIn {
     from {
@@ -39,7 +41,9 @@
     animation: fadeIn 1s ease-in-out;
   }
   .dns{
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 @media (max-width:768px){
   .info{

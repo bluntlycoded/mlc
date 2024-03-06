@@ -245,8 +245,17 @@
     .slider-section{
       width: 100vw;
     }
+    .about-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .first-column{
-      width: 50vw;
+      width: 60vw;
+      margin-right: 0px !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .inner-child{
       flex-direction: column;

@@ -6,8 +6,11 @@
   margin-right: -15px;
   margin-left: -15px;
   padding: 2rem;
+  width: 100vw;
 }
-
+.main-lead{
+  display: flex;
+}
 .col-md-4 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
@@ -76,7 +79,7 @@ align-items: center;
 
 .table {
   margin-top: 20px;
-  width: 100%;
+  width: 95vw;
   border-collapse: collapse;
   background-color: transparent;
   
@@ -99,8 +102,11 @@ text-align: center;
   background-color: #007bff;
   color: #fff;
 }
-.tbl{
+.tbl,.tb2{
   padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .table tbody tr:hover {

@@ -38,6 +38,8 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-color: white;
     border-style: solid;
+    display: flex;
+    flex-direction: column;
   }
   .bnf{
     padding: 0.5rem;
@@ -49,6 +51,8 @@
   .buttons {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
   }
   
   .info-button,

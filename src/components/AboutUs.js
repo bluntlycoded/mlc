@@ -39,12 +39,13 @@ const AboutUs = () => {
         MLC's journey began with a vision to redefine possibilities in Machine Learning, Web and App Development and UI/UX Design. Rooted in a commitment to pushing boundaries, we have evolved into a community united by innovation and excellence. Our history reflects the collaborative efforts of individuals deeply passionate about AI, working together to create a space where groundbreaking ideas are nurtured, and transformative innovations take shape. From our inception, we have embraced an environment that encourages the exploration of cutting-edge AI concepts and the practical application of that knowledge to real-life scenarios.
         </p>
       </section>
-      <section className='dns'>
-      <FAQ/>
-      </section>
+      
      
 
       </div>
+      <section className='dns'>
+      <FAQ/>
+      </section>
     </div>      
       {/* Add more sections for team, values, achievements, etc. */}
       <Footer/>

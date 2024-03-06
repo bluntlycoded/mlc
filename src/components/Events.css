@@ -33,6 +33,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-align: left;
   }
   
   .old-event-details {
@@ -42,7 +43,7 @@
   .old-event-buttons {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: auto;
   }
 
   header p {
@@ -63,6 +64,9 @@
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
   
   .event-poster {
@@ -78,7 +82,7 @@
   .event-buttons {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: auto;
   }
   
   .info-button,

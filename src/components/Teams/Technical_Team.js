@@ -219,6 +219,7 @@ const TechT = () => {
       </div>
       {/* Other Team Members */}
       {/* Team Information Table */}
+      <div className='tb2'>
       <h2 className='h1s'>Members</h2>
       <table className="table">
         <thead>
@@ -251,6 +252,7 @@ const TechT = () => {
           ))}
         </tbody>
       </table>
+      </div>
       <Footer/>
     </div>
   );
