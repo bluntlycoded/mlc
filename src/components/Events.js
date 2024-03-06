@@ -7,8 +7,16 @@ import esc from './Images/Getout.png'
 import vsc from './Images/(Velocity vortex)insta post1.png'
 import arc from './Images/Arcade Zone.png'
 import BackButton from './common/BackButton';
+import bgimg from '../components/Images/divbg.jpg'
 
 const Events = () => {
+  const divStyle = {
+    backgroundImage: `url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%', // Set the width and height of the container if needed
+    height: '200px', // Adjust the height as necessary
+  };
   const upcomingEventsData = [
     {
       id: 1,
@@ -99,7 +107,7 @@ const Events = () => {
     <div className="events-container">
       <Navbar />
       <BackButton/>
-      <header>
+      <header style={divStyle}>
         <h1>Upcoming Events</h1>
         <p>Explore and join our upcoming events.</p>
       </header>

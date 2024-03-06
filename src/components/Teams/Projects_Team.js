@@ -11,10 +11,14 @@ const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
     position: 'Team Lead',
-    imageUrl: {PLead}, // Replace with the actual image URL
+    imageUrl: PLead,
     linkedin: 'https://www.linkedin.com/in/bluntlycoded/',
     instagram: 'https://www.instagram.com/nrahulanenenu/',
     github: 'https://www.github.com/Bluntlycoded/',
+    imageStyle: {
+      width: '75%', // Specify the width in pixels or any other unit
+      height: '250px', // Specify the height in pixels or any other unit
+    },
   },
   {
     name: 'Vansh Singh',
@@ -262,8 +266,13 @@ const ProjectT = () => {
         {/* Lead */}
         <div className="col-md-4">
           <div className="card">
-            <img src={teamMembers[0].imageUrl} className="card-img-top" alt={teamMembers[0].name} />
-            <div className="card-body">
+          <img
+      src={teamMembers[0].imageUrl}
+      className="card-img-top"
+      alt={teamMembers[0].name}
+      style={teamMembers[0].imageStyle}
+    />
+    <div className="card-body">
               <h5 className="card-title">{teamMembers[0].name}</h5>
               <p className="card-text">{teamMembers[0].position}</p>
               <div className="social-icons">

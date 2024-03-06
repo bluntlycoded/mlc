@@ -4,13 +4,21 @@ import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import logo from '../components/Images/removebg.png'
 import BackButton from './common/BackButton';
+import bgimg from '../components/Images/divbg.jpg'
 
 const ContactUs = () => {
+  const divStyle = {
+    backgroundImage: `url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%', // Set the width and height of the container if needed
+    height: '200px', // Adjust the height as necessary
+  };
   return (
     <div className="contact-us-container">
       <Navbar />
       <BackButton/>
-      <header>
+      <header style={divStyle}>
         <h1>Contact Us</h1>
         <p>Get in touch with us for any inquiries or feedback.</p>
       </header>

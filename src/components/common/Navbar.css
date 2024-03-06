@@ -30,10 +30,14 @@ nav ul {
   display: inline-block;
   margin-right: 1rem;
   background-color: #00040F;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
 }
 .desktop-links li{
   display: inline-block;
   margin-right: 1rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
 }
 .menu-icon {
   font-size: 1.5rem;

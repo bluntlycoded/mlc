@@ -6,9 +6,17 @@ import Navbar from './common/Navbar'; // Adjust the path based on your project s
 import Footer from './common/Footer';
 import { useNavigate } from 'react-router-dom';
 import BackButton from './common/BackButton';
+import bgimg from '../components/Images/divbg.jpg'
 
 
 const Projects = () => {
+  const divStyle = {
+    backgroundImage: `url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%', // Set the width and height of the container if needed
+    height: '200px', // Adjust the height as necessary
+  };
   let navigate = useNavigate();
   const Pr1 = () => {
     let path = `/project1`;
@@ -115,7 +123,7 @@ const Projects = () => {
     <div className="projects-container">
       <Navbar />
       <BackButton/>
-      <header>
+      <header style={divStyle}>
         <h1>Projects</h1>
         <p>Explore Our Latest Projects</p>
       </header>

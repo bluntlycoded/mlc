@@ -4,13 +4,21 @@ import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import FAQ from './FAQ';
 import BackButton from './common/BackButton';
+import bgimg from '../components/Images/divbg.jpg'
 
 const AboutUs = () => {
+  const divStyle = {
+    backgroundImage: `url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%', // Set the width and height of the container if needed
+    height: '200px', // Adjust the height as necessary
+  };
   return (
     <div className="about-us-container">
        <Navbar/>
        <BackButton/>
-      <header>
+      <header style={divStyle}>
         <h1>Welcome to Our Club</h1>
         <p>Discover Our Story and Mission</p>
       </header>

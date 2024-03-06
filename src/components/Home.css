@@ -27,7 +27,8 @@
   .abp{
     text-align: justify;
     padding: 2rem;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
     font-size: 1.2rem;
   }
   /* Specializations.css */
@@ -85,9 +86,6 @@
   
   .abpc{
     text-align: center;
-    
-  
-    
   }
   
   .learn-more-button {
@@ -100,7 +98,8 @@
     transition: background-color 0.3s ease-in-out;
   }
   .ods{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Krona One", sans-serif;
+  font-weight: 400;
   }
   .learn-more-button:hover {
     background-color: #1b5998;
@@ -117,7 +116,8 @@
     justify-content: space-around;
   }
   h1{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Krona One", sans-serif;
+  font-weight: 400;
   }
 
 
@@ -206,7 +206,8 @@
     animation: countUp 2s ease-in-out; /* Define the count-up animation */
   }
   .cmr{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Krona One", sans-serif;
+  font-weight: 400;
     font-size: 30px;
   }
   @keyframes countUp {

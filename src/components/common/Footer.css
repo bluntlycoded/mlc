@@ -23,6 +23,9 @@
   
   .footer-section h2 {
     margin-bottom: 1rem;
+    font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
   }
   
   ul {

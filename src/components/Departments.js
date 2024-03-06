@@ -6,8 +6,18 @@ import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import {useNavigate} from 'react-router-dom'
 import BackButton from './common/BackButton';
+import bgimg from '../components/Images/divbg.jpg'
 
 const Departments = () => {
+  const divStyle = {
+    backgroundImage: `url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%', // Set the width and height of the container if needed
+    height: '200px', // Adjust the height as necessary
+  };
+  
+
   let navigate = useNavigate(); 
   const Projects = () =>{ 
     let path = `/project-team`; 
@@ -117,7 +127,7 @@ const Departments = () => {
     <div className="departments-container">
       <Navbar />
       <BackButton/>
-      <header>
+      <header style={divStyle}>
         <h1>Departments</h1>
         <p>Explore the different departments within our Club.</p>
       </header>
