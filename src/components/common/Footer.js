@@ -15,7 +15,6 @@ const Footer = () => {
           <h2>Contact Us</h2>
         <address>
           <p><b>Email</b>: ML.club@vitap.ac.in</p>
-          <p><b>Phone</b>: 9876543210</p>
           <p><b>Address</b>: VIT-AP Campus G-30 Ainavolu Thullur Guntur AP-522237</p>
         </address>
         </div>
@@ -30,8 +29,8 @@ const Footer = () => {
           {/* Add social media icons/links */}
           <div className="social">
                         <a href="https://www.instagram.com/mlc_vitap" target='__blank'><img src={instagram} width={90} className='imgcv' alt='ty' /></a>
-                        <a href="/"><img src={linkedin} width={90} className='imgcv' alt='ty'/></a>
-                        <a href="/"><img src={youtube} width={90} className='imgcv' alt='ty'/></a>
+                        <a href="https://www.linkedin.com/company/machine-learning-club-vitap/"><img src={linkedin} width={90} className='imgcv' alt='ty'/></a>
+                        <a href="https://www.youtube.com/@MLCVIT-AP"><img src={youtube} width={90} className='imgcv' alt='ty'/></a>
                     </div>
         </div>
       </div>

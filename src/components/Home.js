@@ -265,7 +265,7 @@ const Home = () => {
           </div>
           <div className="stat-card">
             <h3>Our Family Size</h3>
-            <p className='cmr counter'>250+</p>
+            <p className='cmr counter'>160+</p>
             <p>Active Members</p>
             <button className="learn-more-button abpc"onClick={Dept}>Know More</button>
           </div>

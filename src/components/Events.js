@@ -123,7 +123,7 @@ const Events = () => {
       </section>
 <br/>
 <br/> 
-<h2 className='ods'>Old Events</h2>
+<h1 className='ods'>Past Events</h1>
       <section className="upcoming-events">
         {oldEventsData.map(event => (
           <div key={event.id} className="old-event-card">

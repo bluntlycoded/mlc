@@ -43,7 +43,6 @@ const ContactUs = () => {
         </p>
         <address>
           <p><b>Email</b>: ML.club@vitap.ac.in</p>
-          <p><b>Phone</b>: 9876543210</p>
           <p><b>Address</b>: VIT-AP Campus G-30 Ainavolu Thullur Guntur AP-522237</p>
         </address>
       </section>
