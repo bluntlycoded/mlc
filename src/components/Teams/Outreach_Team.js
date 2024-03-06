@@ -128,6 +128,7 @@ const OutreachT = () => {
         <Navbar/>
         <BackButton/>
         <h1 className='h1s'>Outreach And PR Team</h1>
+      <div className='row-parent'>
       <div className="row">
         {/* Lead */}
         <div className="col-md-6">
@@ -165,6 +166,7 @@ const OutreachT = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       {/* Other Team Members */}
       {/* Team Information Table */}

@@ -24,7 +24,7 @@ const ContactUs = () => {
       </header>
       <div className="columns">
       <div style={{ display: 'flex' }} className='contact-mobile'>
-      <div style={{ flex: 1, marginRight: '20px' }}>
+      <div style={{ flex: 1 }}>
       <section className="contact-form">
         <h2>Send us a Message</h2>
         <form action='https://formsubmit.co/rahuln9261@gmail.com'method='POST'>

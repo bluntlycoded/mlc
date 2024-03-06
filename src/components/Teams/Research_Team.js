@@ -157,6 +157,7 @@ const ResearchT = () => {
     <Navbar/>
     <BackButton/>
     <h1 className='h1s'>Research Team</h1>
+  <div className='row-parent'>
   <div className="row">
     {/* Lead */}
     <div className="col-md-4">
@@ -221,6 +222,7 @@ const ResearchT = () => {
         </div>
       </div>
     </div>
+  </div>
   </div>
   {/* Other Team Members */}
   {/* Team Information Table */}
