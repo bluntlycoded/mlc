@@ -56,7 +56,7 @@ align-items: center;
   font-size: 16px;
   margin-top: auto;
   transition-duration: 0.4s;
-  width: 50%;
+  
 }
 .learn-more-button-2{
   padding: 10px;
@@ -145,7 +145,12 @@ text-align: center;
   flex-direction: column;
   display: flex;
 }
-
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media(max-width:768px){
   .table th,.table td{
@@ -162,7 +167,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
   }
-  .col-md-4{
+  .col-md-4,.col-md-6{
     width: 89vw;
   }
   .card{

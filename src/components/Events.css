@@ -55,6 +55,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    animation: fadeIn 0.8s ease-in-out forwards;
   }
   
   .event-card {

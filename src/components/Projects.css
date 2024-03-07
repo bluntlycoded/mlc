@@ -26,6 +26,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
+    animation: fadeIn 0.8s ease-in-out forwards;
   }
   
   .project-card {

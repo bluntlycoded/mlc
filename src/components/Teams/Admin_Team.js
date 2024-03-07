@@ -244,7 +244,10 @@ const AdminT = () => {
       {/* Other Team Members */}
       <h1 align="center" className='ssd'>Team Members</h1>
       {/* Team Information Table */}
+      
        {/* ADVISOR-01 */}
+       <div className='row-parent'>
+       <div className='row'>
        <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[5].imageUrl} className="card-img-top" alt={teamMembers[5].name} />
@@ -285,6 +288,7 @@ const AdminT = () => {
             </div>
           </div>
         </div>
+        
         <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[7].imageUrl} className="card-img-top" alt={teamMembers[7].name} />
@@ -307,7 +311,9 @@ const AdminT = () => {
             </div>
           </div>
         </div>
+      </div>
         {/* TM- */}
+        <div className='row'>
         <div className="col-md-4">
           <div className="card">
             <img src={teamMembers[8].imageUrl} className="card-img-top" alt={teamMembers[8].name} />
@@ -347,6 +353,8 @@ const AdminT = () => {
             </div>
           </div>
         </div>
+        </div>
+      </div>
       <Footer/>
     </div>
   );
