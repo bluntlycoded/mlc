@@ -70,12 +70,13 @@ const teamMembers = [
     registration: '22BCB7134',
   },
   {
-    name: 'A Rajesh Chowdary',
+    name: 'Rajesh Andra',
     position: 'Opreations Manager Technical',
     imageUrl: 'member2.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE7089',
+    github: '',
   },
   {
     name: 'Lalitha',
@@ -236,42 +237,111 @@ const AdminT = () => {
       </div>
       </div>
       {/* Other Team Members */}
+      <h1 align="center" className='ssd'>Team Members</h1>
       {/* Team Information Table */}
-      <div className='tbl'>
-      <h1 className='h1s'>Team Information</h1>
-      <table className="table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Registration</th>
-            <th>Positions</th>
-            <th>Connect At</th>
-            
-          </tr>
-        </thead>
-        <tbody>
-          {teamMembers.slice(5).map((member, index) => (
-            <tr key={index}>
-              <td>{member.name}</td>
-              <td>{member.registration}</td>
-              <td>{member.position}</td>
-              <td>
-<a href={member.github} target="_blank" rel="noopener noreferrer" className='ls'>
+       {/* ADVISOR-01 */}
+       <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[5].imageUrl} className="card-img-top" alt={teamMembers[5].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[5].name}</h5>
+              <p className="card-text">{teamMembers[5].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[5].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[5].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        
+        {/* ADVISOR-02 */}
+        <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[6].imageUrl} className="card-img-top" alt={teamMembers[6].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[6].name}</h5>
+              <p className="card-text">{teamMembers[6].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[6].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[6].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[7].imageUrl} className="card-img-top" alt={teamMembers[7].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[7].name}</h5>
+              <p className="card-text">{teamMembers[7].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[7].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[7].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a href={teamMembers[7].github} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        {/* TM- */}
+        <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[8].imageUrl} className="card-img-top" alt={teamMembers[8].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[8].name}</h5>
+              <p className="card-text">{teamMembers[8].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[8].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[8].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
                   </a>
-
-                  <a href={member.instagram} target="_blank" rel="noopener noreferrer"className='lss'>
-                  <FontAwesomeIcon icon={faInstagram} /></a>
                   
-                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className='ls'>
-                  <FontAwesomeIcon icon={faLinkedin} /></a>
-</td>
-             
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      </div>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src={teamMembers[9].imageUrl} className="card-img-top" alt={teamMembers[9].name} />
+            <div className="card-body">
+              <h5 className="card-title">{teamMembers[9].name}</h5>
+              <p className="card-text">{teamMembers[9].position}</p>
+              <div className="social-icons">
+                <a href={teamMembers[9].linkedin} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href={teamMembers[9].instagram} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </div>
+              <br/>
+              <button className="learn-more-button">Know More</button>
+            </div>
+          </div>
+        </div>
       <Footer/>
     </div>
   );
