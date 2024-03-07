@@ -6,6 +6,7 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import PLead from '../../components/Images/Teams/Projects_Lead.jpg';
+import PCLead from '../../components/Images/Teams/PROJ_COL.jpeg';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 const teamMembers = [
@@ -32,7 +33,7 @@ const teamMembers = [
   {
     name: 'Svvs Vivaswanth',
     position: 'Co-Team Lead',
-    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    imageUrl: PCLead,// Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     github: 'https://www.github.com/colead-github/',
