@@ -10,7 +10,7 @@ const EmailSubscription = () => {
   const handleSubscribe = () => {
     // You can implement your subscription logic here
     alert(`Subscribing with email: ${email}`);
-    alert(`Subscribed Successfully Welcome!!!: ${email}`);
+    alert(`Subscribed Successfully Welcome!!!`);
   };
 
   return (
