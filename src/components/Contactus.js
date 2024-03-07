@@ -5,6 +5,7 @@ import Footer from './common/Footer';
 import logo from '../components/Images/removebg.png'
 import BackButton from './common/BackButton';
 import bgimg from '../components/Images/divbg.jpg'
+import { useEffect } from 'react';
 
 const ContactUs = () => {
   const divStyle = {
@@ -14,6 +15,10 @@ const ContactUs = () => {
     width: '100%', // Set the width and height of the container if needed
     height: '200px', // Adjust the height as necessary
   };
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="contact-us-container">
       <Navbar />

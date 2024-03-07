@@ -1,6 +1,6 @@
 // Projects.js
 
-import { React } from 'react';
+import { React,useEffect } from 'react';
 import './Projects.css';
 import Navbar from './common/Navbar'; // Adjust the path based on your project structure
 import Footer from './common/Footer';
@@ -10,6 +10,10 @@ import bgimg from '../components/Images/divbg.jpg'
 
 
 const Projects = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   const divStyle = {
     backgroundImage: `url(${bgimg})`,
     backgroundSize: 'cover',

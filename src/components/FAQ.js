@@ -1,6 +1,7 @@
 // src/FAQ.js
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
 import './FAQ.css';
+
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -10,15 +11,16 @@ const FAQ = () => {
     { question: 'How can I get involved in the club?', answer: 'Attend an event, contact the club leadership, or join our online community.' },
     { question: 'What kind of projects does the club work on?', answer: 'The projects vary depending on member interests and expertise. We can help you find teammates and resources for your project idea.' },
     { question: 'What resources are available for beginners in the Machine Learning Club?', answer: 'We provide resources such as introductory workshops, online tutorials, recommended reading lists, and mentorship opportunities to support beginners in learning machine learning concepts and techniques.' },
-    
-    
-    
     // Add more FAQ items as needed
   ];
 
   const handleToggle = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
 
   return (
     <div className="faq-container">

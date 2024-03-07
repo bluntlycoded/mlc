@@ -1,5 +1,5 @@
 // Departments.js
-
+import { useEffect } from 'react';
 import React from 'react';
 import './Departments.css'; // Create a corresponding CSS file for styling
 import Navbar from './common/Navbar';
@@ -9,6 +9,10 @@ import BackButton from './common/BackButton';
 import bgimg from '../components/Images/divbg.jpg'
 
 const Departments = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   const divStyle = {
     backgroundImage: `url(${bgimg})`,
     backgroundSize: 'cover',

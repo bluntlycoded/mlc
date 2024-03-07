@@ -8,6 +8,7 @@ import vsc from './Images/(Velocity vortex)insta post1.png'
 import arc from './Images/Arcade Zone.png'
 import BackButton from './common/BackButton';
 import bgimg from '../components/Images/divbg.jpg'
+import { useEffect } from 'react';
 
 const Events = () => {
   const divStyle = {
@@ -102,6 +103,10 @@ const Events = () => {
     
     // Add more old events as needed
   ];
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
 
   return (
     <div className="events-container">

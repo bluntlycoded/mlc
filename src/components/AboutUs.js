@@ -5,8 +5,13 @@ import Footer from './common/Footer';
 import FAQ from './FAQ';
 import BackButton from './common/BackButton';
 import bgimg from '../components/Images/divbg.jpg'
+import { useEffect } from 'react';
 
 const AboutUs = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   const divStyle = {
     backgroundImage: `url(${bgimg})`,
     backgroundSize: 'cover',

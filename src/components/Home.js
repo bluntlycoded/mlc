@@ -19,6 +19,10 @@ import arcade from './Images/Arcade Zone.png'
 
 
 const Home = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   let navigate = useNavigate(); 
   const AboutUs = () =>{ 
     let path = `/about`; 
