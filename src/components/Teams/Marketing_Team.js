@@ -7,11 +7,12 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
+import logo from '../Images/removebg.png';
 const teamMembers = [
   {
     name: 'Preran',
     position: 'Team Lead',
-    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
     registration: '22BCE8455'
@@ -19,7 +20,7 @@ const teamMembers = [
   {
     name: 'Preetham Reddy',
     position: 'Co-Team Lead',
-    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     registration:'22BCE7425'

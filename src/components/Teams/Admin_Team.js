@@ -6,11 +6,12 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
+import logo from "../Images/removebg.png";
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
     position: 'Faculty Co-Ordinator',
-    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },];
@@ -18,21 +19,21 @@ const teamMembers = [
   {
     name: 'Irfan Sadiq Rahat',
     position: 'President',
-    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
   {
     name: 'Hritwik Ghosh',
     position: 'Vice President',
-    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
   {
     name: 'Sanya Sooraj Sadanand',
     position: 'Vice President',
-    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
@@ -40,7 +41,7 @@ const teamMembers = [
   {
     name: 'V Yashasvi Koushik',
     position: 'Club Advisor',
-    imageUrl: 'member1.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
     registration: 'Registration 1',
@@ -48,7 +49,7 @@ const teamMembers = [
   {
     name: 'Abu Suleman Khan',
     position: 'Club Advisor',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: 'Registration 2',
@@ -56,7 +57,7 @@ const teamMembers = [
   {
     name: 'Sathwik Sangani',
     position: 'Managing Director',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE7808',
@@ -64,7 +65,7 @@ const teamMembers = [
   {
     name: 'Uthra Balakrishna',
     position: 'Club Secratary',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCB7134',
@@ -72,7 +73,7 @@ const teamMembers = [
   {
     name: 'Rajesh Andra',
     position: 'Opreations Manager Technical',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE7089',
@@ -81,7 +82,7 @@ const teamMembers = [
   {
     name: 'Lalitha',
     position: 'Club Manager',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '21BCE9560',
@@ -89,7 +90,7 @@ const teamMembers = [
   {
     name: 'Garima Baid',
     position: 'Communications Incharge',
-    imageUrl: 'member2.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE8815',

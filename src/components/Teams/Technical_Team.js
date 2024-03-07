@@ -6,11 +6,12 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
+import logo from "../Images/removebg.png";
 const teamMembers = [
   {
     name: 'Diptorishi Tripathi',
     position: 'Team Lead',
-    imageUrl: 'lead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
     github:''
@@ -18,7 +19,7 @@ const teamMembers = [
   {
     name: 'Kushaj Solanki',
     position: 'Co-Lead',
-    imageUrl: 'colead.jpg', // Replace with the actual image URL
+    imageUrl: logo, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     github:'',
