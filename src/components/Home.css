@@ -1,7 +1,11 @@
 .home-container {
     text-align: center;
   }
-  
+  p{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  }
   .hero-section {
     background-color: #00040F; /* Matched to the navbar color */
     color: white;
