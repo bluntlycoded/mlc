@@ -7,6 +7,7 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import PLead from '../../components/Images/Teams/Projects_Lead.jpg';
 import BackButton from '../common/BackButton';
+import { useEffect } from 'react';
 const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
@@ -257,6 +258,10 @@ const teamMembers = [
 ];
 
 const ProjectT = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div>
         <Navbar/>

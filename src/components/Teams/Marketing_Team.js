@@ -6,6 +6,7 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
+import { useEffect } from 'react';
 const teamMembers = [
   {
     name: 'Preran',
@@ -126,6 +127,10 @@ const teamMembers = [
 ];
 
 const MarketingT = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div>
         <Navbar/>
