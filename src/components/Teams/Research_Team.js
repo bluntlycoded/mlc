@@ -147,7 +147,6 @@ const teamMembers = [
     imageUrl: 'member.jpg', // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
-    
     registration: '22BCE8719',
   },
 ];

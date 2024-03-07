@@ -82,17 +82,18 @@ const Departments = () => {
       description: 'Manage and execute various projects undertaken by the organization.',
     fullpage:Projects    },
     {
-      id: 10,
+      id: 4,
+      name: 'Research',
+      description: 'Conduct research activities to contribute to the organization\'s knowledge base and goals.',
+    fullpage:Research
+    },
+    {
+      id: 5,
       name: 'Event Management',
       description: 'Plan and organize events to engage the community and achieve organizational goals.',
     fullpage:Eventm
     },
-    {
-      id: 5,
-      name: 'Social Media',
-      description: 'Manage and enhance the organization\'s presence on social media platforms.',
-    fullpage:SocialM
-    },
+    
     {
       id: 6,
       name: 'Design',
@@ -118,15 +119,13 @@ const Departments = () => {
     fullpage:Outreach
     },
     {
-      id: 4,
-      name: 'Research',
-      description: 'Conduct research activities to contribute to the organization\'s knowledge base and goals.',
-    fullpage:Research
+      id: 10,
+      name: 'Social Media',
+      description: 'Manage and enhance the organization\'s presence on social media platforms.',
+    fullpage:SocialM
     },
+    
   ];
-
-
-
   return (
     <div className="departments-container">
       <Navbar />
