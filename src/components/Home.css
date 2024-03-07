@@ -1,5 +1,6 @@
 .home-container {
     text-align: center;
+    animation: fadeIn 0.8s ease-in-out forwards;
   }
   p{
     font-family: "Inter", sans-serif;

@@ -82,10 +82,10 @@ const Departments = () => {
       description: 'Manage and execute various projects undertaken by the organization.',
     fullpage:Projects    },
     {
-      id: 10,
-      name: 'Event Management',
-      description: 'Plan and organize events to engage the community and achieve organizational goals.',
-    fullpage:Eventm
+      id: 4,
+      name: 'Research',
+      description: 'Conduct research activities to contribute to the organization\'s knowledge base and goals.',
+    fullpage:Research
     },
     {
       id: 5,
@@ -118,10 +118,10 @@ const Departments = () => {
     fullpage:Outreach
     },
     {
-      id: 4,
-      name: 'Research',
-      description: 'Conduct research activities to contribute to the organization\'s knowledge base and goals.',
-    fullpage:Research
+      id: 10,
+      name: 'Event Management',
+      description: 'Plan and organize events to engage the community and achieve organizational goals.',
+    fullpage:Eventm
     },
   ];
 
