@@ -126,8 +126,9 @@ const AdminT = () => {
         </div>
         <div className="col-md-6">
           <h1 className='h1s'>About Dr. Khasim</h1>
-          <p className='h2s'>Specialization Areas: Network Security & Cryptography, Data & Web Mining, Software Engineering, Software Quality Assurance, Human Computer Interaction</p>
-          </div>
+          <p className='h2s'>
+          Dr. Khasim Syed, the esteemed Faculty Coordinator of the Machine Learning Club at VIT-AP, is a distinguished expert with a focus on Network Security & Cryptography, Data & Web Mining, Software Engineering, Software Quality Assurance, and Human-Computer Interaction. His versatile specialization areas highlight his commitment to advancing technology and fostering a holistic understanding of machine learning. With a wealth of knowledge and a passion for educating the next generation, Dr. Syed plays a pivotal role in shaping the minds of aspiring students, contributing significantly to the academic landscape at VIT-AP. His dedication to various facets of computer science makes him an invaluable asset to the institution.
+          </p> </div>
         </div>
 <div className="row">
   <h1 className='h1s'>Club Advisors</h1>
