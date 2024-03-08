@@ -9,6 +9,10 @@ import BackButton from '../common/BackButton';
 import logo from "../Images/removebg.png";
 import faculty from "../Images/Teams/faculty.jpeg";
 import president from '../Images/Teams/irfan.jpeg'
+import md from '../Images/Teams/MD.jpeg';
+import mgrt from '../Images/Teams/Mgr_Tech.jpg';
+import cominc from '../Images/Teams/Com_Inc.jpg';
+import sec from '../Images/Teams/SEC.png';
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -59,7 +63,7 @@ const teamMembers = [
   {
     name: 'Sathwik Sangani',
     position: 'Managing Director',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: md, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE7808',
@@ -67,7 +71,7 @@ const teamMembers = [
   {
     name: 'Uthra Balakrishna',
     position: 'Club Secratary',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: sec, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCB7134',
@@ -75,7 +79,7 @@ const teamMembers = [
   {
     name: 'Rajesh Andra',
     position: 'Opreations Manager Technical',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: mgrt, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE7089',
@@ -92,7 +96,7 @@ const teamMembers = [
   {
     name: 'Garima Baid',
     position: 'Communications Incharge',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: cominc, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '22BCE8815',

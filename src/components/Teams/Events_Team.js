@@ -8,6 +8,7 @@ import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 import logo from '../Images/removebg.png';
+import vallabh from '../Images/Teams/EVENT_VLB.jpeg';
 const teamMembers = [
   {
     name: 'Rishika Ghosh',
@@ -19,7 +20,7 @@ const teamMembers = [
   {
     name: 'Vallabh S Ghantasala',
     position: 'Team Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: vallabh, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
