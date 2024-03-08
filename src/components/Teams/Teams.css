@@ -29,10 +29,14 @@
 }
 
 .card-img-top {
-  height: 18em !important;
-  width: 80% !important; /* Set the desired height for the images */
-  object-fit:inherit;
+  height: 19em !important;
+  width: 70% !important; /* Set the desired height for the images */
+  object-fit:initial;
   padding-top: 1em;
+}
+.col-md-6 img{
+  width: 65% !important;
+  height: 25em !important;
 }
 .ls{
   padding: 1rem;
