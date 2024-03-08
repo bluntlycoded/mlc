@@ -8,6 +8,7 @@ import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import logo from "../Images/removebg.png";
 import faculty from "../Images/Teams/faculty.jpeg";
+import president from '../Images/Teams/irfan.jpeg'
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -20,7 +21,7 @@ const teamMembers = [
   {
     name: 'Irfan Sadiq Rahat',
     position: 'President',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: president, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },
