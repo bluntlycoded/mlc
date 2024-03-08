@@ -8,7 +8,6 @@ import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 import logo from '../Images/removebg.png';
-
 const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
