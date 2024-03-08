@@ -13,6 +13,7 @@ import md from '../Images/Teams/MD.jpeg';
 import mgrt from '../Images/Teams/Mgr_Tech.jpg';
 import cominc from '../Images/Teams/Com_Inc.jpg';
 import sec from '../Images/Teams/SEC.png';
+import vch from '../Images/Teams/vch.jpeg'
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -32,7 +33,7 @@ const teamMembers = [
   {
     name: 'Hritwik Ghosh',
     position: 'Vice President',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: vch, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
@@ -229,7 +230,7 @@ const AdminT = () => {
         </div>
         <div className="col-md-4">
           <div className="card">
-            <img src={teamMembers[1].imageUrl} className="card-img-top" alt={teamMembers[2].name} />
+            <img src={teamMembers[2].imageUrl} className="card-img-top" alt={teamMembers[2].name} />
             <div className="card-body">
               <h5 className="card-title">{teamMembers[2].name}</h5>
               <p className="card-text">{teamMembers[2].position}</p>
