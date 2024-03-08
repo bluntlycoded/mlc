@@ -7,13 +7,14 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
-import logo from '../Images/removebg.png';
+
 import vallabh from '../Images/Teams/EVENT_VLB.jpeg';
+import rishika from '../Images/Teams/Rishika.jpg'
 const teamMembers = [
   {
     name: 'Rishika Ghosh',
     position: 'Team Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: rishika, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },

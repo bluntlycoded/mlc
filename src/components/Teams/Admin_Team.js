@@ -14,6 +14,8 @@ import mgrt from '../Images/Teams/Mgr_Tech.jpg';
 import cominc from '../Images/Teams/Com_Inc.jpg';
 import sec from '../Images/Teams/SEC.png';
 import vch from '../Images/Teams/vch.jpeg'
+import vyk from '../Images/Teams/vyk.jpeg'
+import suleman from '../Images/Teams/suleman.jpeg'
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -48,7 +50,7 @@ const teamMembers = [
   {
     name: 'V Yashasvi Koushik',
     position: 'Club Advisor',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: vyk, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member1-linkedin/',
     instagram: 'https://www.instagram.com/member1-instagram/',
     registration: 'Registration 1',
@@ -56,7 +58,7 @@ const teamMembers = [
   {
     name: 'Abu Suleman Khan',
     position: 'Club Advisor',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: suleman, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: 'Registration 2',
