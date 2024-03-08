@@ -8,11 +8,13 @@ import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 import logo from '../Images/removebg.png';
+import vansh from '../Images/Teams/vansh.png'
+import raghav from '../Images/Teams/raghav.jpeg'
 const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
     position: 'Team Lead',
-    imageUrl: logo,
+    imageUrl: raghav,
     linkedin: 'https://www.linkedin.com/in/bluntlycoded/',
     instagram: 'https://www.instagram.com/nrahulanenenu/',
     github: 'https://www.github.com/Bluntlycoded/',
@@ -24,7 +26,7 @@ const teamMembers = [
   {
     name: 'Vansh Singh',
     position: 'Co-Team Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: vansh, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     github: 'https://www.github.com/colead-github/',

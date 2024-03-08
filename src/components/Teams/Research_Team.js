@@ -7,14 +7,14 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
-import logo from '../Images/removebg.png';
 import mohith from '../Images/Teams/RSC_CO-Mohit.jpg';
 import khushi from '../Images/Teams/KHUSHI_RSC.jpg';
+import maanasa from '../Images/Teams/maanasa.jpg';
 const teamMembers = [
   {
     name: 'Veligotla Janana Maanasa Devi',
     position: 'Team Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: maanasa, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
     github: '',

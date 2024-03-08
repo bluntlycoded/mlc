@@ -6,7 +6,6 @@ import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
-import logo from "../Images/removebg.png";
 import faculty from "../Images/Teams/faculty.jpeg";
 import president from '../Images/Teams/irfan.jpeg'
 import md from '../Images/Teams/MD.jpeg';
@@ -16,6 +15,8 @@ import sec from '../Images/Teams/SEC.png';
 import vch from '../Images/Teams/vch.jpeg'
 import vyk from '../Images/Teams/vyk.jpeg'
 import suleman from '../Images/Teams/suleman.jpeg'
+import sanya from '../Images/Teams/sanya.png'
+import lalitha from '../Images/Teams/lalitha.jpeg'
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
@@ -42,7 +43,7 @@ const teamMembers = [
   {
     name: 'Sanya Sooraj Sadanand',
     position: 'Vice President',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: sanya, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
   },
@@ -91,7 +92,7 @@ const teamMembers = [
   {
     name: 'Lalitha',
     position: 'Club Manager',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: lalitha, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/member2-linkedin/',
     instagram: 'https://www.instagram.com/member2-instagram/',
     registration: '21BCE9560',
