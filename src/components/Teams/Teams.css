@@ -31,7 +31,7 @@
 .card-img-top {
   height: 19em !important;
   width: 70% !important; /* Set the desired height for the images */
-  object-fit:inherit;
+  object-fit:initial;
   padding-top: 1em;
 }
 .col-md-6 img{
