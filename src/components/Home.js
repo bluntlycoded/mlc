@@ -7,8 +7,8 @@ import { Link,useNavigate } from 'react-router-dom';
 import './common/Navbar.css';
 
 import image1 from '../components/Images/5.jpg';
-import image2 from '../components/Images/2.jpg';
-import image3 from '../components/Images/12.jpg';
+import image2 from '../components/Images/4.jpg';
+import image3 from '../components/Images/15.jpg';
 import logo from '../components/Images/removebg.png'
 import hck from '../components/Images/cds.jpeg'
 import Footer from './common/Footer';
