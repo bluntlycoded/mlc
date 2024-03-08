@@ -7,11 +7,12 @@ import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import logo from "../Images/removebg.png";
+import faculty from "../Images/Teams/faculty.jpeg";
 const facultyco = [
   {
     name: 'Dr. Khasim Syed',
     position: 'Faculty Co-Ordinator',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: faculty, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/lead-linkedin/',
     instagram: 'https://www.instagram.com/lead-instagram/',
   },];
@@ -110,7 +111,7 @@ const AdminT = () => {
       <div className="row-parent">
         {/* FACULTY CO-ORDINATOR-01 */}
         <div className='row'>
-      <div className="col-md-6">
+      <div className="col-md-4">
           <div className="card">
             <img src={facultyco[0].imageUrl} className="card-img-top" alt={facultyco[0].name} />
             <div className="card-body">

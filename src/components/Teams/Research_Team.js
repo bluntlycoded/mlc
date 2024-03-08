@@ -8,6 +8,8 @@ import Navbar from '../common/Navbar';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 import logo from '../Images/removebg.png';
+import mohith from '../Images/Teams/RSC_CO-Mohit.jpg';
+import khushi from '../Images/Teams/KHUSHI_RSC.jpg';
 const teamMembers = [
   {
     name: 'Veligotla Janana Maanasa Devi',
@@ -20,7 +22,7 @@ const teamMembers = [
   {
     name: 'Mohit',
     position: 'Team Co-Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: mohith, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     github: '',
@@ -28,7 +30,7 @@ const teamMembers = [
   {
     name: 'Khushi Rajarkar',
     position: 'Team Co-Lead',
-    imageUrl: logo, // Replace with the actual image URL
+    imageUrl: khushi, // Replace with the actual image URL
     linkedin: 'https://www.linkedin.com/in/colead-linkedin/',
     instagram: 'https://www.instagram.com/colead-instagram/',
     github: '',

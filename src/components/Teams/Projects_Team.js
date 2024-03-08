@@ -5,11 +5,10 @@ import { faLinkedin, faInstagram,faGithub } from '@fortawesome/free-brands-svg-i
 import './Teams.css'
 import Footer from '../common/Footer';
 import Navbar from '../common/Navbar';
-import PLead from '../../components/Images/Teams/Projects_Lead.jpg';
-import PCLead from '../../components/Images/Teams/PROJ_COL.jpeg';
 import BackButton from '../common/BackButton';
 import { useEffect } from 'react';
 import logo from '../Images/removebg.png';
+
 const teamMembers = [
   {
     name: 'Rahul Nayak (Raghav)',
