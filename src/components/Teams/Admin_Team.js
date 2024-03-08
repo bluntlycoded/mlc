@@ -112,7 +112,7 @@ const AdminT = () => {
       <div className="row-parent">
         {/* FACULTY CO-ORDINATOR-01 */}
         <div className='row'>
-      <div className="col-md-4">
+      <div className="col-md-6">
           <div className="card">
             <img src={facultyco[0].imageUrl} className="card-img-top" alt={facultyco[0].name} />
             <div className="card-body">
